@@ -1,0 +1,6 @@
+pandas
+numpy
+faker
+pm4py
+matplotlib
+networkx
