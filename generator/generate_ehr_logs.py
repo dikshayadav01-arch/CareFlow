@@ -240,38 +240,57 @@ def generate_patient_events(case_number, patient_number, start_timestamp):
 
     return events
 
-# Development validation
+# Full dataset generation
+
+def generate_full_dataset():
+    """
+    Generate the complete synthetic EHR event log
+    for all configured patients.
+    """
+
+    all_events = []
+
+    base_date = datetime(2026, 1, 10, 9, 0, 0)
+
+    for patient_number in range(1, NUM_PATIENTS + 1):
+
+        # Spread patients across different starting times
+        patient_start = base_date + timedelta(
+            minutes=random.randint(0, 60 * 8)
+        )
+
+        events = generate_patient_events(
+            case_number=patient_number,
+            patient_number=patient_number,
+            start_timestamp=patient_start,
+        )
+
+        all_events.extend(events)
+
+    return pd.DataFrame(all_events)
+
+# Main execution
 
 if __name__ == "__main__":
     print("CareFlow EHR Generator")
-    print("-" * 30)
+    print("-" * 40)
 
-    start_timestamp = datetime(2026, 1, 10, 9, 0, 0)
+    df = generate_full_dataset()
 
-    for pathway in PATHWAYS:
-        patient = generate_patient_attributes(1)
+    output_path = "data/raw/ehr_event_log.csv"
 
-        original_select_pathway = select_pathway
+    df.to_csv(
+        output_path,
+        index=False,
+    )
 
-        def test_pathway():
-            return pathway
+    print(f"\nDataset saved to: {output_path}")
 
-        select_pathway = test_pathway
+    print(f"Patients generated: {df['Patient_ID'].nunique()}")
+    print(f"Cases generated: {df['Case_ID'].nunique()}")
+    print(f"Events generated: {len(df)}")
 
-        events = generate_patient_events(
-            case_number=1,
-            patient_number=1,
-            start_timestamp=start_timestamp,
-        )
+    print("\nEvent log preview:")
+    print(df.head(10).to_string(index=False))
 
-        select_pathway = original_select_pathway
-
-        df = pd.DataFrame(events)
-
-        print(f"\nPathway: {pathway}")
-        print(f"Events generated: {len(df)}")
-        print("Activities:")
-        print(" -> ".join(df["Activity_Name"].tolist()))
-
-    print("\n" + "-" * 30)
-    print("Pathway validation completed successfully!")
+    print("\nDataset generation completed successfully!")
