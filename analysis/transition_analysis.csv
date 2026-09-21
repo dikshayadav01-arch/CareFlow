@@ -1,0 +1,533 @@
+Case_ID,From_Activity,To_Activity,Duration_Minutes
+C0001,Registration,Triage,4.0
+C0001,Triage,Doctor Consultation,5.0
+C0001,Doctor Consultation,Investigation,21.0
+C0001,Investigation,Treatment,17.0
+C0001,Treatment,Discharge,12.0
+C0002,Registration,Triage,20.0
+C0002,Triage,Doctor Consultation,23.0
+C0002,Doctor Consultation,Investigation,22.0
+C0002,Investigation,Treatment,31.0
+C0002,Treatment,Discharge,43.0
+C0003,Registration,Triage,7.0
+C0003,Triage,Doctor Consultation,11.0
+C0003,Doctor Consultation,Investigation,20.0
+C0003,Investigation,Treatment,13.0
+C0003,Treatment,Discharge,17.0
+C0004,Registration,Triage,10.0
+C0004,Triage,Doctor Consultation,6.0
+C0004,Doctor Consultation,X-Ray,16.0
+C0004,X-Ray,Treatment,13.0
+C0004,Treatment,Discharge,24.0
+C0005,Registration,Triage,4.0
+C0005,Triage,Doctor Consultation,4.0
+C0005,Doctor Consultation,Investigation,13.0
+C0005,Investigation,Treatment,14.0
+C0005,Treatment,Discharge,13.0
+C0006,Registration,Triage,8.0
+C0006,Triage,Doctor Consultation,8.0
+C0006,Doctor Consultation,X-Ray,16.0
+C0006,X-Ray,Treatment,20.0
+C0006,Treatment,Discharge,16.0
+C0007,Registration,Triage,17.0
+C0007,Triage,Doctor Consultation,16.0
+C0007,Doctor Consultation,X-Ray,20.0
+C0007,X-Ray,Treatment,38.0
+C0007,Treatment,Discharge,35.0
+C0008,Registration,Triage,5.0
+C0008,Triage,Doctor Consultation,12.0
+C0008,Doctor Consultation,X-Ray,11.0
+C0008,X-Ray,Triage,25.0
+C0008,Triage,Doctor Consultation,17.0
+C0008,Doctor Consultation,Treatment,18.0
+C0008,Treatment,Discharge,17.0
+C0009,Registration,Triage,8.0
+C0009,Triage,Doctor Consultation,14.0
+C0009,Doctor Consultation,X-Ray,10.0
+C0009,X-Ray,Treatment,17.0
+C0009,Treatment,Discharge,14.0
+C0010,Registration,Triage,10.0
+C0010,Triage,Doctor Consultation,13.0
+C0010,Doctor Consultation,Investigation,16.0
+C0010,Investigation,Treatment,13.0
+C0010,Treatment,Discharge,14.0
+C0011,Registration,Triage,20.0
+C0011,Triage,Doctor Consultation,23.0
+C0011,Doctor Consultation,X-Ray,38.0
+C0011,X-Ray,Treatment,22.0
+C0011,Treatment,Discharge,35.0
+C0012,Registration,Triage,4.0
+C0012,Triage,Doctor Consultation,6.0
+C0012,Doctor Consultation,X-Ray,20.0
+C0012,X-Ray,Triage,17.0
+C0012,Triage,Doctor Consultation,11.0
+C0012,Doctor Consultation,Treatment,10.0
+C0012,Treatment,Discharge,18.0
+C0013,Registration,Triage,10.0
+C0013,Triage,Doctor Consultation,6.0
+C0013,Doctor Consultation,X-Ray,22.0
+C0013,X-Ray,Treatment,18.0
+C0013,Treatment,Discharge,26.0
+C0014,Registration,Triage,10.0
+C0014,Triage,Doctor Consultation,4.0
+C0014,Doctor Consultation,X-Ray,22.0
+C0014,X-Ray,Treatment,19.0
+C0014,Treatment,Discharge,22.0
+C0015,Registration,Triage,14.0
+C0015,Triage,Doctor Consultation,7.0
+C0015,Doctor Consultation,Investigation,12.0
+C0015,Investigation,Treatment,25.0
+C0015,Treatment,Discharge,17.0
+C0016,Registration,Triage,6.0
+C0016,Triage,Doctor Consultation,9.0
+C0016,Doctor Consultation,Investigation,8.0
+C0016,Investigation,Treatment,8.0
+C0016,Treatment,Discharge,18.0
+C0017,Registration,Triage,9.0
+C0017,Triage,Doctor Consultation,6.0
+C0017,Doctor Consultation,X-Ray,13.0
+C0017,X-Ray,Triage,16.0
+C0017,Triage,Doctor Consultation,5.0
+C0017,Doctor Consultation,Treatment,15.0
+C0017,Treatment,Discharge,11.0
+C0018,Registration,Triage,15.0
+C0018,Triage,Doctor Consultation,6.0
+C0018,Doctor Consultation,Investigation,17.0
+C0018,Investigation,Treatment,12.0
+C0018,Treatment,Discharge,16.0
+C0019,Registration,Triage,5.0
+C0019,Triage,Doctor Consultation,15.0
+C0019,Doctor Consultation,Investigation,13.0
+C0019,Investigation,Treatment,19.0
+C0019,Treatment,Discharge,30.0
+C0020,Registration,Triage,6.0
+C0020,Triage,Doctor Consultation,3.0
+C0020,Doctor Consultation,Investigation,15.0
+C0020,Investigation,Treatment,6.0
+C0020,Treatment,Discharge,8.0
+C0021,Registration,Triage,12.0
+C0021,Triage,Doctor Consultation,9.0
+C0021,Doctor Consultation,Investigation,23.0
+C0021,Investigation,Treatment,15.0
+C0021,Treatment,Discharge,23.0
+C0022,Registration,Triage,8.0
+C0022,Triage,Doctor Consultation,2.0
+C0022,Doctor Consultation,Investigation,6.0
+C0022,Investigation,Treatment,8.0
+C0022,Treatment,Discharge,10.0
+C0023,Registration,Triage,2.0
+C0023,Triage,Doctor Consultation,8.0
+C0023,Doctor Consultation,Investigation,9.0
+C0023,Investigation,Treatment,12.0
+C0023,Treatment,Discharge,12.0
+C0024,Registration,Triage,4.0
+C0024,Triage,Doctor Consultation,3.0
+C0024,Doctor Consultation,Investigation,14.0
+C0024,Investigation,Treatment,6.0
+C0024,Treatment,Discharge,19.0
+C0025,Registration,Triage,6.0
+C0025,Triage,Doctor Consultation,5.0
+C0025,Doctor Consultation,X-Ray,6.0
+C0025,X-Ray,Triage,16.0
+C0025,Triage,Doctor Consultation,4.0
+C0025,Doctor Consultation,Treatment,8.0
+C0025,Treatment,Discharge,8.0
+C0026,Registration,Triage,7.0
+C0026,Triage,Doctor Consultation,6.0
+C0026,Doctor Consultation,X-Ray,14.0
+C0026,X-Ray,Triage,17.0
+C0026,Triage,Doctor Consultation,3.0
+C0026,Doctor Consultation,Treatment,14.0
+C0026,Treatment,Discharge,8.0
+C0027,Registration,Triage,8.0
+C0027,Triage,Doctor Consultation,9.0
+C0027,Doctor Consultation,Investigation,14.0
+C0027,Investigation,Treatment,16.0
+C0027,Treatment,Discharge,14.0
+C0028,Registration,Triage,10.0
+C0028,Triage,Doctor Consultation,6.0
+C0028,Doctor Consultation,Investigation,9.0
+C0028,Investigation,Treatment,12.0
+C0028,Treatment,Discharge,23.0
+C0029,Registration,Triage,12.0
+C0029,Triage,Doctor Consultation,14.0
+C0029,Doctor Consultation,Investigation,29.0
+C0029,Investigation,Treatment,10.0
+C0029,Treatment,Discharge,36.0
+C0030,Registration,Triage,6.0
+C0030,Triage,Doctor Consultation,9.0
+C0030,Doctor Consultation,Investigation,18.0
+C0030,Investigation,Treatment,19.0
+C0030,Treatment,Discharge,34.0
+C0031,Registration,Triage,4.0
+C0031,Triage,Doctor Consultation,5.0
+C0031,Doctor Consultation,Investigation,22.0
+C0031,Investigation,Treatment,17.0
+C0031,Treatment,Discharge,17.0
+C0032,Registration,Triage,10.0
+C0032,Triage,Doctor Consultation,14.0
+C0032,Doctor Consultation,X-Ray,20.0
+C0032,X-Ray,Treatment,11.0
+C0032,Treatment,Discharge,14.0
+C0033,Registration,Triage,9.0
+C0033,Triage,Doctor Consultation,23.0
+C0033,Doctor Consultation,X-Ray,18.0
+C0033,X-Ray,Treatment,21.0
+C0033,Treatment,Discharge,31.0
+C0034,Registration,Triage,11.0
+C0034,Triage,Doctor Consultation,6.0
+C0034,Doctor Consultation,X-Ray,16.0
+C0034,X-Ray,Treatment,24.0
+C0034,Treatment,Discharge,21.0
+C0035,Registration,Triage,5.0
+C0035,Triage,Doctor Consultation,10.0
+C0035,Doctor Consultation,X-Ray,20.0
+C0035,X-Ray,Triage,28.0
+C0035,Triage,Doctor Consultation,12.0
+C0035,Doctor Consultation,Treatment,18.0
+C0035,Treatment,Discharge,20.0
+C0036,Registration,Triage,6.0
+C0036,Triage,Doctor Consultation,8.0
+C0036,Doctor Consultation,Investigation,10.0
+C0036,Investigation,Treatment,8.0
+C0036,Treatment,Discharge,11.0
+C0037,Registration,Triage,7.0
+C0037,Triage,Doctor Consultation,12.0
+C0037,Doctor Consultation,X-Ray,22.0
+C0037,X-Ray,Triage,23.0
+C0037,Triage,Doctor Consultation,13.0
+C0037,Doctor Consultation,Treatment,20.0
+C0037,Treatment,Discharge,19.0
+C0038,Registration,Triage,8.0
+C0038,Triage,Doctor Consultation,12.0
+C0038,Doctor Consultation,Investigation,15.0
+C0038,Investigation,Treatment,17.0
+C0038,Treatment,Discharge,26.0
+C0039,Registration,Triage,11.0
+C0039,Triage,Doctor Consultation,5.0
+C0039,Doctor Consultation,Investigation,26.0
+C0039,Investigation,Treatment,16.0
+C0039,Treatment,Discharge,26.0
+C0040,Registration,Triage,7.0
+C0040,Triage,Doctor Consultation,10.0
+C0040,Doctor Consultation,X-Ray,17.0
+C0040,X-Ray,Treatment,19.0
+C0040,Treatment,Discharge,20.0
+C0041,Registration,Triage,4.0
+C0041,Triage,Doctor Consultation,7.0
+C0041,Doctor Consultation,X-Ray,11.0
+C0041,X-Ray,Treatment,16.0
+C0041,Treatment,Discharge,8.0
+C0042,Registration,Triage,11.0
+C0042,Triage,Doctor Consultation,8.0
+C0042,Doctor Consultation,Investigation,20.0
+C0042,Investigation,Treatment,19.0
+C0042,Treatment,Discharge,30.0
+C0043,Registration,Triage,6.0
+C0043,Triage,Doctor Consultation,10.0
+C0043,Doctor Consultation,X-Ray,13.0
+C0043,X-Ray,Triage,16.0
+C0043,Triage,Doctor Consultation,7.0
+C0043,Doctor Consultation,Treatment,8.0
+C0043,Treatment,Discharge,12.0
+C0044,Registration,Triage,7.0
+C0044,Triage,Doctor Consultation,6.0
+C0044,Doctor Consultation,X-Ray,11.0
+C0044,X-Ray,Triage,15.0
+C0044,Triage,Doctor Consultation,8.0
+C0044,Doctor Consultation,Treatment,8.0
+C0044,Treatment,Discharge,10.0
+C0045,Registration,Triage,6.0
+C0045,Triage,Doctor Consultation,10.0
+C0045,Doctor Consultation,Investigation,6.0
+C0045,Investigation,Treatment,8.0
+C0045,Treatment,Discharge,9.0
+C0046,Registration,Triage,10.0
+C0046,Triage,Doctor Consultation,14.0
+C0046,Doctor Consultation,X-Ray,20.0
+C0046,X-Ray,Treatment,22.0
+C0046,Treatment,Discharge,15.0
+C0047,Registration,Triage,6.0
+C0047,Triage,Doctor Consultation,10.0
+C0047,Doctor Consultation,Investigation,18.0
+C0047,Investigation,Treatment,9.0
+C0047,Treatment,Discharge,28.0
+C0048,Registration,Triage,5.0
+C0048,Triage,Doctor Consultation,9.0
+C0048,Doctor Consultation,Investigation,16.0
+C0048,Investigation,Treatment,10.0
+C0048,Treatment,Discharge,28.0
+C0049,Registration,Triage,4.0
+C0049,Triage,Doctor Consultation,8.0
+C0049,Doctor Consultation,Investigation,17.0
+C0049,Investigation,Treatment,16.0
+C0049,Treatment,Discharge,29.0
+C0050,Registration,Triage,5.0
+C0050,Triage,Doctor Consultation,7.0
+C0050,Doctor Consultation,Investigation,11.0
+C0050,Investigation,Treatment,12.0
+C0050,Treatment,Discharge,16.0
+C0051,Registration,Triage,6.0
+C0051,Triage,Doctor Consultation,2.0
+C0051,Doctor Consultation,Investigation,11.0
+C0051,Investigation,Treatment,10.0
+C0051,Treatment,Discharge,18.0
+C0052,Registration,Triage,14.0
+C0052,Triage,Doctor Consultation,5.0
+C0052,Doctor Consultation,X-Ray,22.0
+C0052,X-Ray,Triage,33.0
+C0052,Triage,Doctor Consultation,5.0
+C0052,Doctor Consultation,Treatment,12.0
+C0052,Treatment,Discharge,35.0
+C0053,Registration,Triage,10.0
+C0053,Triage,Doctor Consultation,11.0
+C0053,Doctor Consultation,Investigation,24.0
+C0053,Investigation,Treatment,20.0
+C0053,Treatment,Discharge,25.0
+C0054,Registration,Triage,10.0
+C0054,Triage,Doctor Consultation,4.0
+C0054,Doctor Consultation,Investigation,16.0
+C0054,Investigation,Treatment,13.0
+C0054,Treatment,Discharge,26.0
+C0055,Registration,Triage,6.0
+C0055,Triage,Doctor Consultation,12.0
+C0055,Doctor Consultation,Investigation,22.0
+C0055,Investigation,Treatment,18.0
+C0055,Treatment,Discharge,39.0
+C0056,Registration,Triage,4.0
+C0056,Triage,Doctor Consultation,4.0
+C0056,Doctor Consultation,X-Ray,8.0
+C0056,X-Ray,Treatment,12.0
+C0056,Treatment,Discharge,9.0
+C0057,Registration,Triage,4.0
+C0057,Triage,Doctor Consultation,4.0
+C0057,Doctor Consultation,X-Ray,14.0
+C0057,X-Ray,Triage,18.0
+C0057,Triage,Doctor Consultation,6.0
+C0057,Doctor Consultation,Treatment,6.0
+C0057,Treatment,Discharge,18.0
+C0058,Registration,Triage,13.0
+C0058,Triage,Doctor Consultation,23.0
+C0058,Doctor Consultation,X-Ray,27.0
+C0058,X-Ray,Treatment,22.0
+C0058,Treatment,Discharge,40.0
+C0059,Registration,Triage,5.0
+C0059,Triage,Doctor Consultation,10.0
+C0059,Doctor Consultation,Investigation,7.0
+C0059,Investigation,Treatment,12.0
+C0059,Treatment,Discharge,10.0
+C0060,Registration,Triage,7.0
+C0060,Triage,Doctor Consultation,6.0
+C0060,Doctor Consultation,Investigation,10.0
+C0060,Investigation,Treatment,8.0
+C0060,Treatment,Discharge,8.0
+C0061,Registration,Triage,6.0
+C0061,Triage,Doctor Consultation,8.0
+C0061,Doctor Consultation,X-Ray,5.0
+C0061,X-Ray,Treatment,15.0
+C0061,Treatment,Discharge,12.0
+C0062,Registration,Triage,10.0
+C0062,Triage,Doctor Consultation,10.0
+C0062,Doctor Consultation,Investigation,20.0
+C0062,Investigation,Treatment,8.0
+C0062,Treatment,Discharge,23.0
+C0063,Registration,Triage,4.0
+C0063,Triage,Doctor Consultation,10.0
+C0063,Doctor Consultation,X-Ray,15.0
+C0063,X-Ray,Treatment,15.0
+C0063,Treatment,Discharge,14.0
+C0064,Registration,Triage,7.0
+C0064,Triage,Doctor Consultation,8.0
+C0064,Doctor Consultation,Investigation,12.0
+C0064,Investigation,Treatment,10.0
+C0064,Treatment,Discharge,14.0
+C0065,Registration,Triage,4.0
+C0065,Triage,Doctor Consultation,4.0
+C0065,Doctor Consultation,Investigation,8.0
+C0065,Investigation,Treatment,10.0
+C0065,Treatment,Discharge,9.0
+C0066,Registration,Triage,9.0
+C0066,Triage,Doctor Consultation,14.0
+C0066,Doctor Consultation,X-Ray,13.0
+C0066,X-Ray,Treatment,21.0
+C0066,Treatment,Discharge,24.0
+C0067,Registration,Triage,6.0
+C0067,Triage,Doctor Consultation,8.0
+C0067,Doctor Consultation,Investigation,35.0
+C0067,Investigation,Treatment,25.0
+C0067,Treatment,Discharge,48.0
+C0068,Registration,Triage,16.0
+C0068,Triage,Doctor Consultation,26.0
+C0068,Doctor Consultation,X-Ray,31.0
+C0068,X-Ray,Treatment,32.0
+C0068,Treatment,Discharge,26.0
+C0069,Registration,Triage,8.0
+C0069,Triage,Doctor Consultation,8.0
+C0069,Doctor Consultation,Investigation,18.0
+C0069,Investigation,Treatment,18.0
+C0069,Treatment,Discharge,52.0
+C0070,Registration,Triage,18.0
+C0070,Triage,Doctor Consultation,16.0
+C0070,Doctor Consultation,X-Ray,34.0
+C0070,X-Ray,Treatment,35.0
+C0070,Treatment,Discharge,38.0
+C0071,Registration,Triage,2.0
+C0071,Triage,Doctor Consultation,4.0
+C0071,Doctor Consultation,X-Ray,8.0
+C0071,X-Ray,Treatment,18.0
+C0071,Treatment,Discharge,10.0
+C0072,Registration,Triage,7.0
+C0072,Triage,Doctor Consultation,5.0
+C0072,Doctor Consultation,X-Ray,23.0
+C0072,X-Ray,Treatment,29.0
+C0072,Treatment,Discharge,37.0
+C0073,Registration,Triage,12.0
+C0073,Triage,Doctor Consultation,7.0
+C0073,Doctor Consultation,X-Ray,17.0
+C0073,X-Ray,Treatment,23.0
+C0073,Treatment,Discharge,40.0
+C0074,Registration,Triage,8.0
+C0074,Triage,Doctor Consultation,4.0
+C0074,Doctor Consultation,X-Ray,9.0
+C0074,X-Ray,Treatment,10.0
+C0074,Treatment,Discharge,8.0
+C0075,Registration,Triage,7.0
+C0075,Triage,Doctor Consultation,13.0
+C0075,Doctor Consultation,Investigation,14.0
+C0075,Investigation,Treatment,19.0
+C0075,Treatment,Discharge,22.0
+C0076,Registration,Triage,4.0
+C0076,Triage,Doctor Consultation,9.0
+C0076,Doctor Consultation,Investigation,21.0
+C0076,Investigation,Treatment,8.0
+C0076,Treatment,Discharge,29.0
+C0077,Registration,Triage,20.0
+C0077,Triage,Doctor Consultation,25.0
+C0077,Doctor Consultation,Investigation,23.0
+C0077,Investigation,Treatment,20.0
+C0077,Treatment,Discharge,43.0
+C0078,Registration,Triage,13.0
+C0078,Triage,Doctor Consultation,20.0
+C0078,Doctor Consultation,Investigation,17.0
+C0078,Investigation,Treatment,20.0
+C0078,Treatment,Discharge,32.0
+C0079,Registration,Triage,3.0
+C0079,Triage,Doctor Consultation,8.0
+C0079,Doctor Consultation,Investigation,9.0
+C0079,Investigation,Treatment,10.0
+C0079,Treatment,Discharge,9.0
+C0080,Registration,Triage,6.0
+C0080,Triage,Doctor Consultation,8.0
+C0080,Doctor Consultation,Investigation,14.0
+C0080,Investigation,Treatment,12.0
+C0080,Treatment,Discharge,18.0
+C0081,Registration,Triage,7.0
+C0081,Triage,Doctor Consultation,14.0
+C0081,Doctor Consultation,Investigation,19.0
+C0081,Investigation,Treatment,10.0
+C0081,Treatment,Discharge,11.0
+C0082,Registration,Triage,13.0
+C0082,Triage,Doctor Consultation,18.0
+C0082,Doctor Consultation,X-Ray,12.0
+C0082,X-Ray,Treatment,22.0
+C0082,Treatment,Discharge,18.0
+C0083,Registration,Triage,4.0
+C0083,Triage,Doctor Consultation,9.0
+C0083,Doctor Consultation,X-Ray,12.0
+C0083,X-Ray,Treatment,15.0
+C0083,Treatment,Discharge,11.0
+C0084,Registration,Triage,7.0
+C0084,Triage,Doctor Consultation,7.0
+C0084,Doctor Consultation,X-Ray,18.0
+C0084,X-Ray,Treatment,28.0
+C0084,Treatment,Discharge,25.0
+C0085,Registration,Triage,10.0
+C0085,Triage,Doctor Consultation,15.0
+C0085,Doctor Consultation,X-Ray,10.0
+C0085,X-Ray,Triage,22.0
+C0085,Triage,Doctor Consultation,15.0
+C0085,Doctor Consultation,Treatment,16.0
+C0085,Treatment,Discharge,19.0
+C0086,Registration,Triage,4.0
+C0086,Triage,Doctor Consultation,8.0
+C0086,Doctor Consultation,X-Ray,8.0
+C0086,X-Ray,Triage,14.0
+C0086,Triage,Doctor Consultation,3.0
+C0086,Doctor Consultation,Treatment,10.0
+C0086,Treatment,Discharge,19.0
+C0087,Registration,Triage,2.0
+C0087,Triage,Doctor Consultation,4.0
+C0087,Doctor Consultation,Investigation,13.0
+C0087,Investigation,Treatment,10.0
+C0087,Treatment,Discharge,9.0
+C0088,Registration,Triage,20.0
+C0088,Triage,Doctor Consultation,12.0
+C0088,Doctor Consultation,Investigation,16.0
+C0088,Investigation,Treatment,32.0
+C0088,Treatment,Discharge,52.0
+C0089,Registration,Triage,8.0
+C0089,Triage,Doctor Consultation,8.0
+C0089,Doctor Consultation,X-Ray,10.0
+C0089,X-Ray,Triage,18.0
+C0089,Triage,Doctor Consultation,10.0
+C0089,Doctor Consultation,Treatment,14.0
+C0089,Treatment,Discharge,8.0
+C0090,Registration,Triage,8.0
+C0090,Triage,Doctor Consultation,6.0
+C0090,Doctor Consultation,X-Ray,22.0
+C0090,X-Ray,Treatment,14.0
+C0090,Treatment,Discharge,22.0
+C0091,Registration,Triage,12.0
+C0091,Triage,Doctor Consultation,21.0
+C0091,Doctor Consultation,X-Ray,27.0
+C0091,X-Ray,Treatment,36.0
+C0091,Treatment,Discharge,25.0
+C0092,Registration,Triage,14.0
+C0092,Triage,Doctor Consultation,17.0
+C0092,Doctor Consultation,Investigation,29.0
+C0092,Investigation,Treatment,17.0
+C0092,Treatment,Discharge,30.0
+C0093,Registration,Triage,4.0
+C0093,Triage,Doctor Consultation,14.0
+C0093,Doctor Consultation,Investigation,14.0
+C0093,Investigation,Treatment,11.0
+C0093,Treatment,Discharge,13.0
+C0094,Registration,Triage,4.0
+C0094,Triage,Doctor Consultation,6.0
+C0094,Doctor Consultation,Investigation,11.0
+C0094,Investigation,Treatment,12.0
+C0094,Treatment,Discharge,9.0
+C0095,Registration,Triage,11.0
+C0095,Triage,Doctor Consultation,13.0
+C0095,Doctor Consultation,Investigation,14.0
+C0095,Investigation,Treatment,8.0
+C0095,Treatment,Discharge,25.0
+C0096,Registration,Triage,4.0
+C0096,Triage,Doctor Consultation,8.0
+C0096,Doctor Consultation,X-Ray,8.0
+C0096,X-Ray,Treatment,18.0
+C0096,Treatment,Discharge,10.0
+C0097,Registration,Triage,15.0
+C0097,Triage,Doctor Consultation,6.0
+C0097,Doctor Consultation,X-Ray,19.0
+C0097,X-Ray,Triage,29.0
+C0097,Triage,Doctor Consultation,6.0
+C0097,Doctor Consultation,Treatment,28.0
+C0097,Treatment,Discharge,26.0
+C0098,Registration,Triage,6.0
+C0098,Triage,Doctor Consultation,8.0
+C0098,Doctor Consultation,Investigation,13.0
+C0098,Investigation,Treatment,9.0
+C0098,Treatment,Discharge,10.0
+C0099,Registration,Triage,9.0
+C0099,Triage,Doctor Consultation,5.0
+C0099,Doctor Consultation,X-Ray,10.0
+C0099,X-Ray,Triage,16.0
+C0099,Triage,Doctor Consultation,13.0
+C0099,Doctor Consultation,Treatment,20.0
+C0099,Treatment,Discharge,20.0
+C0100,Registration,Triage,8.0
+C0100,Triage,Doctor Consultation,10.0
+C0100,Doctor Consultation,Investigation,21.0
+C0100,Investigation,Treatment,16.0
+C0100,Treatment,Discharge,26.0
