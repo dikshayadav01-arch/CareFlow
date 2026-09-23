@@ -1,0 +1,4 @@
+Pathway,Patient_Count,Average_Duration_Minutes,Minimum_Duration_Minutes,Maximum_Duration_Minutes,Average_Activity_Count
+NORMAL,54,69.31,34.0,139.0,6.0
+XRAY,30,81.07,37.0,141.0,6.0
+XRAY_LOOPBACK,16,88.81,53.0,129.0,8.0
