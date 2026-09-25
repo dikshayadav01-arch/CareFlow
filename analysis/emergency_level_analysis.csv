@@ -1,0 +1,5 @@
+Emergency_Level,Patient_Count,Average_Duration_Minutes,Minimum_Duration_Minutes,Maximum_Duration_Minutes,Average_Activity_Count,Patient_Percentage
+Critical,32,48.38,34.0,76.0,6.38,32.0
+High,36,73.78,48.0,116.0,6.33,36.0
+Low,14,122.21,97.0,141.0,6.0,14.0
+Medium,18,93.39,66.0,129.0,6.44,18.0
