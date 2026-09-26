@@ -1,0 +1,6 @@
+Doctor,Patient_Count,Average_Duration_Minutes,Minimum_Duration_Minutes,Maximum_Duration_Minutes,Average_Activity_Count,Patient_Percentage
+Dr. Gupta,17,71.06,39.0,126.0,6.47,17.0
+Dr. Mehta,22,78.73,34.0,141.0,6.18,22.0
+Dr. Sharma,17,75.71,39.0,131.0,6.47,17.0
+Dr. Singh,22,75.41,35.0,121.0,6.45,22.0
+Dr. Verma,22,77.73,38.0,138.0,6.09,22.0
