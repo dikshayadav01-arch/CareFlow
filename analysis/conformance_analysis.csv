@@ -1,0 +1,101 @@
+Case_ID,Patient_ID,Actual_Pathway,Expected_Pathway,Conformance_Status,Deviation_Flag,Activity_Count
+C0001,P0001,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0002,P0002,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0003,P0003,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0004,P0004,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0005,P0005,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0006,P0006,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0007,P0007,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0008,P0008,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0009,P0009,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0010,P0010,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0011,P0011,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0012,P0012,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0013,P0013,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0014,P0014,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0015,P0015,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0016,P0016,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0017,P0017,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0018,P0018,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0019,P0019,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0020,P0020,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0021,P0021,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0022,P0022,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0023,P0023,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0024,P0024,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0025,P0025,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0026,P0026,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0027,P0027,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0028,P0028,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0029,P0029,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0030,P0030,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0031,P0031,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0032,P0032,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0033,P0033,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0034,P0034,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0035,P0035,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0036,P0036,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0037,P0037,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0038,P0038,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0039,P0039,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0040,P0040,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0041,P0041,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0042,P0042,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0043,P0043,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0044,P0044,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0045,P0045,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0046,P0046,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0047,P0047,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0048,P0048,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0049,P0049,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0050,P0050,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0051,P0051,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0052,P0052,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0053,P0053,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0054,P0054,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0055,P0055,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0056,P0056,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0057,P0057,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0058,P0058,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0059,P0059,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0060,P0060,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0061,P0061,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0062,P0062,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0063,P0063,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0064,P0064,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0065,P0065,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0066,P0066,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0067,P0067,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0068,P0068,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0069,P0069,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0070,P0070,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0071,P0071,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0072,P0072,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0073,P0073,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0074,P0074,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0075,P0075,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0076,P0076,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0077,P0077,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0078,P0078,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0079,P0079,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0080,P0080,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0081,P0081,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0082,P0082,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0083,P0083,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0084,P0084,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0085,P0085,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0086,P0086,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0087,P0087,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0088,P0088,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0089,P0089,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0090,P0090,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0091,P0091,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0092,P0092,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0093,P0093,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0094,P0094,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0095,P0095,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0096,P0096,Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,XRAY,CONFORMING,0,6
+C0097,P0097,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0098,P0098,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6
+C0099,P0099,Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,XRAY_LOOPBACK,NON_CONFORMING,1,8
+C0100,P0100,Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,NORMAL,CONFORMING,0,6

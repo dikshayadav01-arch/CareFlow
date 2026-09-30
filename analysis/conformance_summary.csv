@@ -1,0 +1,4 @@
+Expected_Pathway,Conformance_Status,Patient_Count,Average_Activity_Count,Deviation_Count,Patient_Percentage
+NORMAL,CONFORMING,54,6.0,0,54.0
+XRAY,CONFORMING,30,6.0,0,30.0
+XRAY_LOOPBACK,NON_CONFORMING,16,8.0,16,16.0
