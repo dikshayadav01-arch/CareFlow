@@ -1,0 +1,4 @@
+Actual_Pathway,Deviation_Type,Patient_Count,Average_Activity_Count,Patient_Percentage
+NORMAL,NO_DEVIATION,54,6.0,54.0
+XRAY,NO_DEVIATION,30,6.0,30.0
+XRAY_LOOPBACK,EXTRA_ACTIVITY,16,8.0,16.0
