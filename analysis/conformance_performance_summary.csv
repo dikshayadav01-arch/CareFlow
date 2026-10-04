@@ -1,0 +1,3 @@
+Conformance_Status,Patient_Count,Average_Duration_Minutes,Median_Duration_Minutes,Minimum_Duration_Minutes,Maximum_Duration_Minutes,Average_Activity_Count,Average_Extra_Activities,Total_Deviations
+CONFORMING,84,73.51,70.0,34.0,141.0,6.0,0.0,0
+NON_CONFORMING,16,88.81,81.0,53.0,129.0,8.0,2.0,16

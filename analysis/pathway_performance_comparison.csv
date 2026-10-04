@@ -1,0 +1,4 @@
+Pathway,Conformance_Status,Patient_Count,Average_Duration_Minutes,Median_Duration_Minutes,Minimum_Duration_Minutes,Maximum_Duration_Minutes,Average_Activity_Count,Average_Extra_Activities,Total_Deviations
+NORMAL,CONFORMING,54,69.31,67.0,34.0,139.0,6.0,0.0,0
+XRAY,CONFORMING,30,81.07,77.5,37.0,141.0,6.0,0.0,0
+XRAY_LOOPBACK,NON_CONFORMING,16,88.81,81.0,53.0,129.0,8.0,2.0,16
