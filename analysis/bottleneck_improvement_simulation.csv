@@ -1,0 +1,2 @@
+Total_Patients,Affected_Patients,Affected_Patient_Percentage,Current_Average_Duration_Minutes,Simulated_Improved_Average_Duration_Minutes,Simulated_Duration_Reduction_Per_Patient,Current_Total_Duration_Minutes,Simulated_Total_Duration_Minutes,Total_Simulated_Time_Reduction_Minutes,Simulated_Reduction_Percentage
+100,16,16.0,88.81,73.51,15.3,1420.96,1176.16,244.8,17.23
