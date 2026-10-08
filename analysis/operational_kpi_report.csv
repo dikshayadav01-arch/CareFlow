@@ -1,0 +1,14 @@
+KPI_Category,KPI_Name,KPI_Value,Unit
+Patient Volume,Total Patients,100.0,patients
+Conformance,Conforming Patients,84.0,patients
+Conformance,Non-Conforming Patients,16.0,patients
+Pathway Deviation,Loopback Patients,16.0,patients
+Pathway Deviation,Loopback Rate,16.0,percent
+Pathway Performance,Conforming Average Duration,73.51,minutes
+Pathway Performance,Non-Conforming Average Duration,88.81,minutes
+Bottleneck Impact,Affected Patient Percentage,16.0,percent
+Bottleneck Impact,Additional Time Per Affected Patient,15.3,minutes
+Bottleneck Impact,Estimated Additional Time,244.8,minutes
+Improvement Simulation,Simulated Duration Reduction Per Patient,15.3,minutes
+Improvement Simulation,Simulated Reduction,17.23,percent
+Improvement Simulation,Total Simulated Time Reduction,244.8,minutes
