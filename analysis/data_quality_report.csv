@@ -1,0 +1,25 @@
+Dataset,Check_Name,Status,Details
+operational_kpi_report,File Exists,PASS,Found operational_kpi_report.csv
+operational_kpi_report,CSV Readable,PASS,Loaded 13 rows
+operational_kpi_report,Required Columns,PASS,All required columns present
+operational_kpi_report,No Missing Values,PASS,Missing cells: 0
+operational_kpi_report,Unique KPI Names,PASS,Duplicate names: 0
+operational_kpi_report,Numeric KPI Values,PASS,Invalid numeric values: 0
+operational_kpi_report,Non-Negative KPI Values,PASS,All KPI values are non-negative
+operational_kpi_report,Expected KPI Count,PASS,Observed 13 rows; expected 13
+executive_dashboard_data,File Exists,PASS,Found executive_dashboard_data.csv
+executive_dashboard_data,CSV Readable,PASS,Loaded 13 rows
+executive_dashboard_data,Required Columns,PASS,All required columns present
+executive_dashboard_data,No Missing Values,PASS,Missing cells: 0
+executive_dashboard_data,Unique KPI Names,PASS,Duplicate names: 0
+executive_dashboard_data,Numeric KPI Values,PASS,Invalid numeric values: 0
+executive_dashboard_data,Non-Negative KPI Values,PASS,All KPI values are non-negative
+executive_dashboard_data,Expected KPI Count,PASS,Observed 13 rows; expected 13
+operational_kpi_report,Expected KPI: Total Patients,PASS,Observed 100.0; expected 100
+operational_kpi_report,Expected KPI: Conforming Patients,PASS,Observed 84.0; expected 84
+operational_kpi_report,Expected KPI: Non-Conforming Patients,PASS,Observed 16.0; expected 16
+operational_kpi_report,Expected KPI: Loopback Patients,PASS,Observed 16.0; expected 16
+operational_kpi_report,Expected KPI: Loopback Rate,PASS,Observed 16.0; expected 16.0
+operational_kpi_report,Expected KPI: Simulated Reduction,PASS,Observed 17.23; expected 17.23
+Cross-dataset,Matching KPI Names,PASS,Both datasets contain the same KPI names
+Cross-dataset,Matching KPI Values,PASS,All KPI values match
