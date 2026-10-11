@@ -1,0 +1,2 @@
+Pipeline_Name,Total_Checks,Passed_Checks,Failed_Checks,Unexpected_Statuses,Pipeline_Status
+CareFlow Data Quality Pipeline,24,24,0,0,PASS
