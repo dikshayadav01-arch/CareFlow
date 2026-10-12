@@ -1,0 +1,3 @@
+Run_Timestamp,Pipeline_Name,Total_Checks,Passed_Checks,Failed_Checks,Unexpected_Statuses,Pipeline_Status
+2026-10-12T18:45:12+05:30,CareFlow Data Quality Pipeline,24,24,0,0,PASS
+2026-10-12T18:46:37+05:30,CareFlow Data Quality Pipeline,24,24,0,0,PASS
