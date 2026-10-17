@@ -1,0 +1,633 @@
+Case_ID,Patient_ID,Activity_Name,Timestamp,Department,Doctor,Emergency_Level,Age_Group,Gender
+C0001,P0001,Registration,2026-01-10 14:27:00,Emergency,Dr. Verma,High,0-17,Male
+C0001,P0001,Triage,2026-01-10 14:31:00,Emergency,Dr. Verma,High,0-17,Male
+C0001,P0001,Doctor Consultation,2026-01-10 14:36:00,Emergency,Dr. Verma,High,0-17,Male
+C0001,P0001,Investigation,2026-01-10 14:57:00,Laboratory,Dr. Verma,High,0-17,Male
+C0001,P0001,Treatment,2026-01-10 15:14:00,Emergency,Dr. Verma,High,0-17,Male
+C0001,P0001,Discharge,2026-01-10 15:26:00,Emergency,Dr. Verma,High,0-17,Male
+C0002,P0002,Registration,2026-01-10 09:47:00,Emergency,Dr. Mehta,Low,18-24,Male
+C0002,P0002,Triage,2026-01-10 10:07:00,Emergency,Dr. Mehta,Low,18-24,Male
+C0002,P0002,Doctor Consultation,2026-01-10 10:30:00,Emergency,Dr. Mehta,Low,18-24,Male
+C0002,P0002,Investigation,2026-01-10 10:52:00,Laboratory,Dr. Mehta,Low,18-24,Male
+C0002,P0002,Treatment,2026-01-10 11:23:00,Emergency,Dr. Mehta,Low,18-24,Male
+C0002,P0002,Discharge,2026-01-10 12:06:00,Emergency,Dr. Mehta,Low,18-24,Male
+C0003,P0003,Registration,2026-01-10 15:54:00,Emergency,Dr. Gupta,Medium,65+,Male
+C0003,P0003,Triage,2026-01-10 16:01:00,Emergency,Dr. Gupta,Medium,65+,Male
+C0003,P0003,Doctor Consultation,2026-01-10 16:12:00,Emergency,Dr. Gupta,Medium,65+,Male
+C0003,P0003,Investigation,2026-01-10 16:32:00,Laboratory,Dr. Gupta,Medium,65+,Male
+C0003,P0003,Treatment,2026-01-10 16:45:00,Emergency,Dr. Gupta,Medium,65+,Male
+C0003,P0003,Discharge,2026-01-10 17:02:00,Emergency,Dr. Gupta,Medium,65+,Male
+C0004,P0004,Registration,2026-01-10 09:49:00,Emergency,Dr. Sharma,High,25-34,Female
+C0004,P0004,Triage,2026-01-10 09:59:00,Emergency,Dr. Sharma,High,25-34,Female
+C0004,P0004,Doctor Consultation,2026-01-10 10:05:00,Emergency,Dr. Sharma,High,25-34,Female
+C0004,P0004,X-Ray,2026-01-10 10:21:00,Radiology,Dr. Sharma,High,25-34,Female
+C0004,P0004,Treatment,2026-01-10 10:34:00,Emergency,Dr. Sharma,High,25-34,Female
+C0004,P0004,Discharge,2026-01-10 10:58:00,Emergency,Dr. Sharma,High,25-34,Female
+C0005,P0005,Registration,2026-01-10 16:04:00,Emergency,Dr. Mehta,High,55-64,Other
+C0005,P0005,Triage,2026-01-10 16:08:00,Emergency,Dr. Mehta,High,55-64,Other
+C0005,P0005,Doctor Consultation,2026-01-10 16:12:00,Emergency,Dr. Mehta,High,55-64,Other
+C0005,P0005,Investigation,2026-01-10 16:25:00,Laboratory,Dr. Mehta,High,55-64,Other
+C0005,P0005,Treatment,2026-01-10 16:39:00,Emergency,Dr. Mehta,High,55-64,Other
+C0005,P0005,Discharge,2026-01-10 16:52:00,Emergency,Dr. Mehta,High,55-64,Other
+C0006,P0006,Registration,2026-01-10 16:23:00,Emergency,Dr. Gupta,High,0-17,Female
+C0006,P0006,Triage,2026-01-10 16:31:00,Emergency,Dr. Gupta,High,0-17,Female
+C0006,P0006,Doctor Consultation,2026-01-10 16:39:00,Emergency,Dr. Gupta,High,0-17,Female
+C0006,P0006,X-Ray,2026-01-10 16:55:00,Radiology,Dr. Gupta,High,0-17,Female
+C0006,P0006,Treatment,2026-01-10 17:15:00,Emergency,Dr. Gupta,High,0-17,Female
+C0006,P0006,Discharge,2026-01-10 17:31:00,Emergency,Dr. Gupta,High,0-17,Female
+C0007,P0007,Registration,2026-01-10 11:16:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0007,P0007,Triage,2026-01-10 11:33:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0007,P0007,Doctor Consultation,2026-01-10 11:49:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0007,P0007,X-Ray,2026-01-10 12:09:00,Radiology,Dr. Mehta,Low,55-64,Other
+C0007,P0007,Treatment,2026-01-10 12:47:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0007,P0007,Discharge,2026-01-10 13:22:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0008,P0008,Registration,2026-01-10 16:53:00,Emergency,Dr. Singh,Medium,55-64,Other
+C0008,P0008,Triage,2026-01-10 16:58:00,Emergency,Dr. Singh,Medium,55-64,Other
+C0008,P0008,Doctor Consultation,2026-01-10 17:10:00,Emergency,Dr. Singh,Medium,55-64,Other
+C0008,P0008,X-Ray,2026-01-10 17:21:00,Radiology,Dr. Singh,Medium,55-64,Other
+C0008,P0008,Triage,2026-01-10 17:46:00,Emergency,Dr. Singh,Medium,55-64,Other
+C0008,P0008,Doctor Consultation,2026-01-10 18:03:00,Emergency,Dr. Singh,Medium,55-64,Other
+C0008,P0008,Treatment,2026-01-10 18:21:00,Emergency,Dr. Singh,Medium,55-64,Other
+C0008,P0008,Discharge,2026-01-10 18:38:00,Emergency,Dr. Singh,Medium,55-64,Other
+C0009,P0009,Registration,2026-01-10 16:47:00,Emergency,Dr. Verma,High,45-54,Other
+C0009,P0009,Triage,2026-01-10 16:55:00,Emergency,Dr. Verma,High,45-54,Other
+C0009,P0009,Doctor Consultation,2026-01-10 17:09:00,Emergency,Dr. Verma,High,45-54,Other
+C0009,P0009,X-Ray,2026-01-10 17:19:00,Radiology,Dr. Verma,High,45-54,Other
+C0009,P0009,Treatment,2026-01-10 17:36:00,Emergency,Dr. Verma,High,45-54,Other
+C0009,P0009,Discharge,2026-01-10 17:50:00,Emergency,Dr. Verma,High,45-54,Other
+C0010,P0010,Registration,2026-01-10 15:21:00,Emergency,Dr. Mehta,High,45-54,Other
+C0010,P0010,Triage,2026-01-10 15:31:00,Emergency,Dr. Mehta,High,45-54,Other
+C0010,P0010,Doctor Consultation,2026-01-10 15:44:00,Emergency,Dr. Mehta,High,45-54,Other
+C0010,P0010,Investigation,2026-01-10 16:00:00,Laboratory,Dr. Mehta,High,45-54,Other
+C0010,P0010,Treatment,2026-01-10 16:13:00,Emergency,Dr. Mehta,High,45-54,Other
+C0010,P0010,Discharge,2026-01-10 16:27:00,Emergency,Dr. Mehta,High,45-54,Other
+C0011,P0011,Registration,2026-01-10 13:12:00,Emergency,Dr. Verma,Low,0-17,Male
+C0011,P0011,Triage,2026-01-10 13:32:00,Emergency,Dr. Verma,Low,0-17,Male
+C0011,P0011,Doctor Consultation,2026-01-10 13:55:00,Emergency,Dr. Verma,Low,0-17,Male
+C0011,P0011,X-Ray,2026-01-10 14:33:00,Radiology,Dr. Verma,Low,0-17,Male
+C0011,P0011,Treatment,2026-01-10 14:55:00,Emergency,Dr. Verma,Low,0-17,Male
+C0011,P0011,Discharge,2026-01-10 15:30:00,Emergency,Dr. Verma,Low,0-17,Male
+C0012,P0012,Registration,2026-01-10 14:05:00,Emergency,Dr. Mehta,High,35-44,Other
+C0012,P0012,Triage,2026-01-10 14:09:00,Emergency,Dr. Mehta,High,35-44,Other
+C0012,P0012,Doctor Consultation,2026-01-10 14:15:00,Emergency,Dr. Mehta,High,35-44,Other
+C0012,P0012,X-Ray,2026-01-10 14:35:00,Radiology,Dr. Mehta,High,35-44,Other
+C0012,P0012,Triage,2026-01-10 14:52:00,Emergency,Dr. Mehta,High,35-44,Other
+C0012,P0012,Doctor Consultation,2026-01-10 15:03:00,Emergency,Dr. Mehta,High,35-44,Other
+C0012,P0012,Treatment,2026-01-10 15:13:00,Emergency,Dr. Mehta,High,35-44,Other
+C0012,P0012,Discharge,2026-01-10 15:31:00,Emergency,Dr. Mehta,High,35-44,Other
+C0013,P0013,Registration,2026-01-10 10:20:00,Emergency,Dr. Mehta,High,35-44,Male
+C0013,P0013,Triage,2026-01-10 10:30:00,Emergency,Dr. Mehta,High,35-44,Male
+C0013,P0013,Doctor Consultation,2026-01-10 10:36:00,Emergency,Dr. Mehta,High,35-44,Male
+C0013,P0013,X-Ray,2026-01-10 10:58:00,Radiology,Dr. Mehta,High,35-44,Male
+C0013,P0013,Treatment,2026-01-10 11:16:00,Emergency,Dr. Mehta,High,35-44,Male
+C0013,P0013,Discharge,2026-01-10 11:42:00,Emergency,Dr. Mehta,High,35-44,Male
+C0014,P0014,Registration,2026-01-10 14:11:00,Emergency,Dr. Verma,High,18-24,Male
+C0014,P0014,Triage,2026-01-10 14:21:00,Emergency,Dr. Verma,High,18-24,Male
+C0014,P0014,Doctor Consultation,2026-01-10 14:25:00,Emergency,Dr. Verma,High,18-24,Male
+C0014,P0014,X-Ray,2026-01-10 14:47:00,Radiology,Dr. Verma,High,18-24,Male
+C0014,P0014,Treatment,2026-01-10 15:06:00,Emergency,Dr. Verma,High,18-24,Male
+C0014,P0014,Discharge,2026-01-10 15:28:00,Emergency,Dr. Verma,High,18-24,Male
+C0015,P0015,Registration,2026-01-10 09:57:00,Emergency,Dr. Sharma,Medium,25-34,Female
+C0015,P0015,Triage,2026-01-10 10:11:00,Emergency,Dr. Sharma,Medium,25-34,Female
+C0015,P0015,Doctor Consultation,2026-01-10 10:18:00,Emergency,Dr. Sharma,Medium,25-34,Female
+C0015,P0015,Investigation,2026-01-10 10:30:00,Laboratory,Dr. Sharma,Medium,25-34,Female
+C0015,P0015,Treatment,2026-01-10 10:55:00,Emergency,Dr. Sharma,Medium,25-34,Female
+C0015,P0015,Discharge,2026-01-10 11:12:00,Emergency,Dr. Sharma,Medium,25-34,Female
+C0016,P0016,Registration,2026-01-10 15:32:00,Emergency,Dr. Mehta,Critical,18-24,Male
+C0016,P0016,Triage,2026-01-10 15:38:00,Emergency,Dr. Mehta,Critical,18-24,Male
+C0016,P0016,Doctor Consultation,2026-01-10 15:47:00,Emergency,Dr. Mehta,Critical,18-24,Male
+C0016,P0016,Investigation,2026-01-10 15:55:00,Laboratory,Dr. Mehta,Critical,18-24,Male
+C0016,P0016,Treatment,2026-01-10 16:03:00,Emergency,Dr. Mehta,Critical,18-24,Male
+C0016,P0016,Discharge,2026-01-10 16:21:00,Emergency,Dr. Mehta,Critical,18-24,Male
+C0017,P0017,Registration,2026-01-10 12:24:00,Emergency,Dr. Gupta,High,55-64,Other
+C0017,P0017,Triage,2026-01-10 12:33:00,Emergency,Dr. Gupta,High,55-64,Other
+C0017,P0017,Doctor Consultation,2026-01-10 12:39:00,Emergency,Dr. Gupta,High,55-64,Other
+C0017,P0017,X-Ray,2026-01-10 12:52:00,Radiology,Dr. Gupta,High,55-64,Other
+C0017,P0017,Triage,2026-01-10 13:08:00,Emergency,Dr. Gupta,High,55-64,Other
+C0017,P0017,Doctor Consultation,2026-01-10 13:13:00,Emergency,Dr. Gupta,High,55-64,Other
+C0017,P0017,Treatment,2026-01-10 13:28:00,Emergency,Dr. Gupta,High,55-64,Other
+C0017,P0017,Discharge,2026-01-10 13:39:00,Emergency,Dr. Gupta,High,55-64,Other
+C0018,P0018,Registration,2026-01-10 13:43:00,Emergency,Dr. Sharma,Medium,18-24,Other
+C0018,P0018,Triage,2026-01-10 13:58:00,Emergency,Dr. Sharma,Medium,18-24,Other
+C0018,P0018,Doctor Consultation,2026-01-10 14:04:00,Emergency,Dr. Sharma,Medium,18-24,Other
+C0018,P0018,Investigation,2026-01-10 14:21:00,Laboratory,Dr. Sharma,Medium,18-24,Other
+C0018,P0018,Treatment,2026-01-10 14:33:00,Emergency,Dr. Sharma,Medium,18-24,Other
+C0018,P0018,Discharge,2026-01-10 14:49:00,Emergency,Dr. Sharma,Medium,18-24,Other
+C0019,P0019,Registration,2026-01-10 09:36:00,Emergency,Dr. Gupta,High,45-54,Male
+C0019,P0019,Triage,2026-01-10 09:41:00,Emergency,Dr. Gupta,High,45-54,Male
+C0019,P0019,Doctor Consultation,2026-01-10 09:56:00,Emergency,Dr. Gupta,High,45-54,Male
+C0019,P0019,Investigation,2026-01-10 10:09:00,Laboratory,Dr. Gupta,High,45-54,Male
+C0019,P0019,Treatment,2026-01-10 10:28:00,Emergency,Dr. Gupta,High,45-54,Male
+C0019,P0019,Discharge,2026-01-10 10:58:00,Emergency,Dr. Gupta,High,45-54,Male
+C0020,P0020,Registration,2026-01-10 10:37:00,Emergency,Dr. Singh,Critical,0-17,Male
+C0020,P0020,Triage,2026-01-10 10:43:00,Emergency,Dr. Singh,Critical,0-17,Male
+C0020,P0020,Doctor Consultation,2026-01-10 10:46:00,Emergency,Dr. Singh,Critical,0-17,Male
+C0020,P0020,Investigation,2026-01-10 11:01:00,Laboratory,Dr. Singh,Critical,0-17,Male
+C0020,P0020,Treatment,2026-01-10 11:07:00,Emergency,Dr. Singh,Critical,0-17,Male
+C0020,P0020,Discharge,2026-01-10 11:15:00,Emergency,Dr. Singh,Critical,0-17,Male
+C0021,P0021,Registration,2026-01-10 15:12:00,Emergency,Dr. Verma,Medium,25-34,Male
+C0021,P0021,Triage,2026-01-10 15:24:00,Emergency,Dr. Verma,Medium,25-34,Male
+C0021,P0021,Doctor Consultation,2026-01-10 15:33:00,Emergency,Dr. Verma,Medium,25-34,Male
+C0021,P0021,Investigation,2026-01-10 15:56:00,Laboratory,Dr. Verma,Medium,25-34,Male
+C0021,P0021,Treatment,2026-01-10 16:11:00,Emergency,Dr. Verma,Medium,25-34,Male
+C0021,P0021,Discharge,2026-01-10 16:34:00,Emergency,Dr. Verma,Medium,25-34,Male
+C0022,P0022,Registration,2026-01-10 11:07:00,Emergency,Dr. Mehta,Critical,65+,Male
+C0022,P0022,Triage,2026-01-10 11:15:00,Emergency,Dr. Mehta,Critical,65+,Male
+C0022,P0022,Doctor Consultation,2026-01-10 11:17:00,Emergency,Dr. Mehta,Critical,65+,Male
+C0022,P0022,Investigation,2026-01-10 11:23:00,Laboratory,Dr. Mehta,Critical,65+,Male
+C0022,P0022,Treatment,2026-01-10 11:31:00,Emergency,Dr. Mehta,Critical,65+,Male
+C0022,P0022,Discharge,2026-01-10 11:41:00,Emergency,Dr. Mehta,Critical,65+,Male
+C0023,P0023,Registration,2026-01-10 13:08:00,Emergency,Dr. Sharma,Critical,35-44,Male
+C0023,P0023,Triage,2026-01-10 13:10:00,Emergency,Dr. Sharma,Critical,35-44,Male
+C0023,P0023,Doctor Consultation,2026-01-10 13:18:00,Emergency,Dr. Sharma,Critical,35-44,Male
+C0023,P0023,Investigation,2026-01-10 13:27:00,Laboratory,Dr. Sharma,Critical,35-44,Male
+C0023,P0023,Treatment,2026-01-10 13:39:00,Emergency,Dr. Sharma,Critical,35-44,Male
+C0023,P0023,Discharge,2026-01-10 13:51:00,Emergency,Dr. Sharma,Critical,35-44,Male
+C0024,P0024,Registration,2026-01-10 14:56:00,Emergency,Dr. Verma,Critical,55-64,Other
+C0024,P0024,Triage,2026-01-10 15:00:00,Emergency,Dr. Verma,Critical,55-64,Other
+C0024,P0024,Doctor Consultation,2026-01-10 15:03:00,Emergency,Dr. Verma,Critical,55-64,Other
+C0024,P0024,Investigation,2026-01-10 15:17:00,Laboratory,Dr. Verma,Critical,55-64,Other
+C0024,P0024,Treatment,2026-01-10 15:23:00,Emergency,Dr. Verma,Critical,55-64,Other
+C0024,P0024,Discharge,2026-01-10 15:42:00,Emergency,Dr. Verma,Critical,55-64,Other
+C0025,P0025,Registration,2026-01-10 09:29:00,Emergency,Dr. Mehta,Critical,0-17,Other
+C0025,P0025,Triage,2026-01-10 09:35:00,Emergency,Dr. Mehta,Critical,0-17,Other
+C0025,P0025,Doctor Consultation,2026-01-10 09:40:00,Emergency,Dr. Mehta,Critical,0-17,Other
+C0025,P0025,X-Ray,2026-01-10 09:46:00,Radiology,Dr. Mehta,Critical,0-17,Other
+C0025,P0025,Triage,2026-01-10 10:02:00,Emergency,Dr. Mehta,Critical,0-17,Other
+C0025,P0025,Doctor Consultation,2026-01-10 10:06:00,Emergency,Dr. Mehta,Critical,0-17,Other
+C0025,P0025,Treatment,2026-01-10 10:14:00,Emergency,Dr. Mehta,Critical,0-17,Other
+C0025,P0025,Discharge,2026-01-10 10:22:00,Emergency,Dr. Mehta,Critical,0-17,Other
+C0026,P0026,Registration,2026-01-10 09:34:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0026,P0026,Triage,2026-01-10 09:41:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0026,P0026,Doctor Consultation,2026-01-10 09:47:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0026,P0026,X-Ray,2026-01-10 10:01:00,Radiology,Dr. Sharma,Critical,55-64,Male
+C0026,P0026,Triage,2026-01-10 10:18:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0026,P0026,Doctor Consultation,2026-01-10 10:21:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0026,P0026,Treatment,2026-01-10 10:35:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0026,P0026,Discharge,2026-01-10 10:43:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0027,P0027,Registration,2026-01-10 14:36:00,Emergency,Dr. Singh,High,45-54,Other
+C0027,P0027,Triage,2026-01-10 14:44:00,Emergency,Dr. Singh,High,45-54,Other
+C0027,P0027,Doctor Consultation,2026-01-10 14:53:00,Emergency,Dr. Singh,High,45-54,Other
+C0027,P0027,Investigation,2026-01-10 15:07:00,Laboratory,Dr. Singh,High,45-54,Other
+C0027,P0027,Treatment,2026-01-10 15:23:00,Emergency,Dr. Singh,High,45-54,Other
+C0027,P0027,Discharge,2026-01-10 15:37:00,Emergency,Dr. Singh,High,45-54,Other
+C0028,P0028,Registration,2026-01-10 14:30:00,Emergency,Dr. Sharma,High,25-34,Female
+C0028,P0028,Triage,2026-01-10 14:40:00,Emergency,Dr. Sharma,High,25-34,Female
+C0028,P0028,Doctor Consultation,2026-01-10 14:46:00,Emergency,Dr. Sharma,High,25-34,Female
+C0028,P0028,Investigation,2026-01-10 14:55:00,Laboratory,Dr. Sharma,High,25-34,Female
+C0028,P0028,Treatment,2026-01-10 15:07:00,Emergency,Dr. Sharma,High,25-34,Female
+C0028,P0028,Discharge,2026-01-10 15:30:00,Emergency,Dr. Sharma,High,25-34,Female
+C0029,P0029,Registration,2026-01-10 10:07:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0029,P0029,Triage,2026-01-10 10:19:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0029,P0029,Doctor Consultation,2026-01-10 10:33:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0029,P0029,Investigation,2026-01-10 11:02:00,Laboratory,Dr. Singh,Medium,25-34,Male
+C0029,P0029,Treatment,2026-01-10 11:12:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0029,P0029,Discharge,2026-01-10 11:48:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0030,P0030,Registration,2026-01-10 11:33:00,Emergency,Dr. Singh,Medium,55-64,Male
+C0030,P0030,Triage,2026-01-10 11:39:00,Emergency,Dr. Singh,Medium,55-64,Male
+C0030,P0030,Doctor Consultation,2026-01-10 11:48:00,Emergency,Dr. Singh,Medium,55-64,Male
+C0030,P0030,Investigation,2026-01-10 12:06:00,Laboratory,Dr. Singh,Medium,55-64,Male
+C0030,P0030,Treatment,2026-01-10 12:25:00,Emergency,Dr. Singh,Medium,55-64,Male
+C0030,P0030,Discharge,2026-01-10 12:59:00,Emergency,Dr. Singh,Medium,55-64,Male
+C0031,P0031,Registration,2026-01-10 15:07:00,Emergency,Dr. Mehta,High,25-34,Male
+C0031,P0031,Triage,2026-01-10 15:11:00,Emergency,Dr. Mehta,High,25-34,Male
+C0031,P0031,Doctor Consultation,2026-01-10 15:16:00,Emergency,Dr. Mehta,High,25-34,Male
+C0031,P0031,Investigation,2026-01-10 15:38:00,Laboratory,Dr. Mehta,High,25-34,Male
+C0031,P0031,Treatment,2026-01-10 15:55:00,Emergency,Dr. Mehta,High,25-34,Male
+C0031,P0031,Discharge,2026-01-10 16:12:00,Emergency,Dr. Mehta,High,25-34,Male
+C0032,P0032,Registration,2026-01-10 09:01:00,Emergency,Dr. Verma,High,25-34,Male
+C0032,P0032,Triage,2026-01-10 09:11:00,Emergency,Dr. Verma,High,25-34,Male
+C0032,P0032,Doctor Consultation,2026-01-10 09:25:00,Emergency,Dr. Verma,High,25-34,Male
+C0032,P0032,X-Ray,2026-01-10 09:45:00,Radiology,Dr. Verma,High,25-34,Male
+C0032,P0032,Treatment,2026-01-10 09:56:00,Emergency,Dr. Verma,High,25-34,Male
+C0032,P0032,Discharge,2026-01-10 10:10:00,Emergency,Dr. Verma,High,25-34,Male
+C0033,P0033,Registration,2026-01-10 16:32:00,Emergency,Dr. Singh,Low,55-64,Male
+C0033,P0033,Triage,2026-01-10 16:41:00,Emergency,Dr. Singh,Low,55-64,Male
+C0033,P0033,Doctor Consultation,2026-01-10 17:04:00,Emergency,Dr. Singh,Low,55-64,Male
+C0033,P0033,X-Ray,2026-01-10 17:22:00,Radiology,Dr. Singh,Low,55-64,Male
+C0033,P0033,Treatment,2026-01-10 17:43:00,Emergency,Dr. Singh,Low,55-64,Male
+C0033,P0033,Discharge,2026-01-10 18:14:00,Emergency,Dr. Singh,Low,55-64,Male
+C0034,P0034,Registration,2026-01-10 16:40:00,Emergency,Dr. Verma,High,65+,Male
+C0034,P0034,Triage,2026-01-10 16:51:00,Emergency,Dr. Verma,High,65+,Male
+C0034,P0034,Doctor Consultation,2026-01-10 16:57:00,Emergency,Dr. Verma,High,65+,Male
+C0034,P0034,X-Ray,2026-01-10 17:13:00,Radiology,Dr. Verma,High,65+,Male
+C0034,P0034,Treatment,2026-01-10 17:37:00,Emergency,Dr. Verma,High,65+,Male
+C0034,P0034,Discharge,2026-01-10 17:58:00,Emergency,Dr. Verma,High,65+,Male
+C0035,P0035,Registration,2026-01-10 15:23:00,Emergency,Dr. Verma,Medium,18-24,Male
+C0035,P0035,Triage,2026-01-10 15:28:00,Emergency,Dr. Verma,Medium,18-24,Male
+C0035,P0035,Doctor Consultation,2026-01-10 15:38:00,Emergency,Dr. Verma,Medium,18-24,Male
+C0035,P0035,X-Ray,2026-01-10 15:58:00,Radiology,Dr. Verma,Medium,18-24,Male
+C0035,P0035,Triage,2026-01-10 16:26:00,Emergency,Dr. Verma,Medium,18-24,Male
+C0035,P0035,Doctor Consultation,2026-01-10 16:38:00,Emergency,Dr. Verma,Medium,18-24,Male
+C0035,P0035,Treatment,2026-01-10 16:56:00,Emergency,Dr. Verma,Medium,18-24,Male
+C0035,P0035,Discharge,2026-01-10 17:16:00,Emergency,Dr. Verma,Medium,18-24,Male
+C0036,P0036,Registration,2026-01-10 12:15:00,Emergency,Dr. Verma,Critical,65+,Male
+C0036,P0036,Triage,2026-01-10 12:21:00,Emergency,Dr. Verma,Critical,65+,Male
+C0036,P0036,Doctor Consultation,2026-01-10 12:29:00,Emergency,Dr. Verma,Critical,65+,Male
+C0036,P0036,Investigation,2026-01-10 12:39:00,Laboratory,Dr. Verma,Critical,65+,Male
+C0036,P0036,Treatment,2026-01-10 12:47:00,Emergency,Dr. Verma,Critical,65+,Male
+C0036,P0036,Discharge,2026-01-10 12:58:00,Emergency,Dr. Verma,Critical,65+,Male
+C0037,P0037,Registration,2026-01-10 14:37:00,Emergency,Dr. Singh,High,18-24,Female
+C0037,P0037,Triage,2026-01-10 14:44:00,Emergency,Dr. Singh,High,18-24,Female
+C0037,P0037,Doctor Consultation,2026-01-10 14:56:00,Emergency,Dr. Singh,High,18-24,Female
+C0037,P0037,X-Ray,2026-01-10 15:18:00,Radiology,Dr. Singh,High,18-24,Female
+C0037,P0037,Triage,2026-01-10 15:41:00,Emergency,Dr. Singh,High,18-24,Female
+C0037,P0037,Doctor Consultation,2026-01-10 15:54:00,Emergency,Dr. Singh,High,18-24,Female
+C0037,P0037,Treatment,2026-01-10 16:14:00,Emergency,Dr. Singh,High,18-24,Female
+C0037,P0037,Discharge,2026-01-10 16:33:00,Emergency,Dr. Singh,High,18-24,Female
+C0038,P0038,Registration,2026-01-10 09:59:00,Emergency,Dr. Sharma,High,25-34,Male
+C0038,P0038,Triage,2026-01-10 10:07:00,Emergency,Dr. Sharma,High,25-34,Male
+C0038,P0038,Doctor Consultation,2026-01-10 10:19:00,Emergency,Dr. Sharma,High,25-34,Male
+C0038,P0038,Investigation,2026-01-10 10:34:00,Laboratory,Dr. Sharma,High,25-34,Male
+C0038,P0038,Treatment,2026-01-10 10:51:00,Emergency,Dr. Sharma,High,25-34,Male
+C0038,P0038,Discharge,2026-01-10 11:17:00,Emergency,Dr. Sharma,High,25-34,Male
+C0039,P0039,Registration,2026-01-10 09:59:00,Emergency,Dr. Singh,Medium,35-44,Other
+C0039,P0039,Triage,2026-01-10 10:10:00,Emergency,Dr. Singh,Medium,35-44,Other
+C0039,P0039,Doctor Consultation,2026-01-10 10:15:00,Emergency,Dr. Singh,Medium,35-44,Other
+C0039,P0039,Investigation,2026-01-10 10:41:00,Laboratory,Dr. Singh,Medium,35-44,Other
+C0039,P0039,Treatment,2026-01-10 10:57:00,Emergency,Dr. Singh,Medium,35-44,Other
+C0039,P0039,Discharge,2026-01-10 11:23:00,Emergency,Dr. Singh,Medium,35-44,Other
+C0040,P0040,Registration,2026-01-10 09:35:00,Emergency,Dr. Sharma,High,55-64,Female
+C0040,P0040,Triage,2026-01-10 09:42:00,Emergency,Dr. Sharma,High,55-64,Female
+C0040,P0040,Doctor Consultation,2026-01-10 09:52:00,Emergency,Dr. Sharma,High,55-64,Female
+C0040,P0040,X-Ray,2026-01-10 10:09:00,Radiology,Dr. Sharma,High,55-64,Female
+C0040,P0040,Treatment,2026-01-10 10:28:00,Emergency,Dr. Sharma,High,55-64,Female
+C0040,P0040,Discharge,2026-01-10 10:48:00,Emergency,Dr. Sharma,High,55-64,Female
+C0041,P0041,Registration,2026-01-10 13:43:00,Emergency,Dr. Gupta,Critical,18-24,Male
+C0041,P0041,Triage,2026-01-10 13:47:00,Emergency,Dr. Gupta,Critical,18-24,Male
+C0041,P0041,Doctor Consultation,2026-01-10 13:54:00,Emergency,Dr. Gupta,Critical,18-24,Male
+C0041,P0041,X-Ray,2026-01-10 14:05:00,Radiology,Dr. Gupta,Critical,18-24,Male
+C0041,P0041,Treatment,2026-01-10 14:21:00,Emergency,Dr. Gupta,Critical,18-24,Male
+C0041,P0041,Discharge,2026-01-10 14:29:00,Emergency,Dr. Gupta,Critical,18-24,Male
+C0042,P0042,Registration,2026-01-10 11:26:00,Emergency,Dr. Gupta,High,18-24,Female
+C0042,P0042,Triage,2026-01-10 11:37:00,Emergency,Dr. Gupta,High,18-24,Female
+C0042,P0042,Doctor Consultation,2026-01-10 11:45:00,Emergency,Dr. Gupta,High,18-24,Female
+C0042,P0042,Investigation,2026-01-10 12:05:00,Laboratory,Dr. Gupta,High,18-24,Female
+C0042,P0042,Treatment,2026-01-10 12:24:00,Emergency,Dr. Gupta,High,18-24,Female
+C0042,P0042,Discharge,2026-01-10 12:54:00,Emergency,Dr. Gupta,High,18-24,Female
+C0043,P0043,Registration,2026-01-10 14:37:00,Emergency,Dr. Sharma,High,0-17,Female
+C0043,P0043,Triage,2026-01-10 14:43:00,Emergency,Dr. Sharma,High,0-17,Female
+C0043,P0043,Doctor Consultation,2026-01-10 14:53:00,Emergency,Dr. Sharma,High,0-17,Female
+C0043,P0043,X-Ray,2026-01-10 15:06:00,Radiology,Dr. Sharma,High,0-17,Female
+C0043,P0043,Triage,2026-01-10 15:22:00,Emergency,Dr. Sharma,High,0-17,Female
+C0043,P0043,Doctor Consultation,2026-01-10 15:29:00,Emergency,Dr. Sharma,High,0-17,Female
+C0043,P0043,Treatment,2026-01-10 15:37:00,Emergency,Dr. Sharma,High,0-17,Female
+C0043,P0043,Discharge,2026-01-10 15:49:00,Emergency,Dr. Sharma,High,0-17,Female
+C0044,P0044,Registration,2026-01-10 13:03:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0044,P0044,Triage,2026-01-10 13:10:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0044,P0044,Doctor Consultation,2026-01-10 13:16:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0044,P0044,X-Ray,2026-01-10 13:27:00,Radiology,Dr. Gupta,Critical,45-54,Male
+C0044,P0044,Triage,2026-01-10 13:42:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0044,P0044,Doctor Consultation,2026-01-10 13:50:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0044,P0044,Treatment,2026-01-10 13:58:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0044,P0044,Discharge,2026-01-10 14:08:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0045,P0045,Registration,2026-01-10 14:52:00,Emergency,Dr. Verma,Critical,0-17,Male
+C0045,P0045,Triage,2026-01-10 14:58:00,Emergency,Dr. Verma,Critical,0-17,Male
+C0045,P0045,Doctor Consultation,2026-01-10 15:08:00,Emergency,Dr. Verma,Critical,0-17,Male
+C0045,P0045,Investigation,2026-01-10 15:14:00,Laboratory,Dr. Verma,Critical,0-17,Male
+C0045,P0045,Treatment,2026-01-10 15:22:00,Emergency,Dr. Verma,Critical,0-17,Male
+C0045,P0045,Discharge,2026-01-10 15:31:00,Emergency,Dr. Verma,Critical,0-17,Male
+C0046,P0046,Registration,2026-01-10 10:08:00,Emergency,Dr. Gupta,High,65+,Female
+C0046,P0046,Triage,2026-01-10 10:18:00,Emergency,Dr. Gupta,High,65+,Female
+C0046,P0046,Doctor Consultation,2026-01-10 10:32:00,Emergency,Dr. Gupta,High,65+,Female
+C0046,P0046,X-Ray,2026-01-10 10:52:00,Radiology,Dr. Gupta,High,65+,Female
+C0046,P0046,Treatment,2026-01-10 11:14:00,Emergency,Dr. Gupta,High,65+,Female
+C0046,P0046,Discharge,2026-01-10 11:29:00,Emergency,Dr. Gupta,High,65+,Female
+C0047,P0047,Registration,2026-01-10 12:50:00,Emergency,Dr. Mehta,High,25-34,Male
+C0047,P0047,Triage,2026-01-10 12:56:00,Emergency,Dr. Mehta,High,25-34,Male
+C0047,P0047,Doctor Consultation,2026-01-10 13:06:00,Emergency,Dr. Mehta,High,25-34,Male
+C0047,P0047,Investigation,2026-01-10 13:24:00,Laboratory,Dr. Mehta,High,25-34,Male
+C0047,P0047,Treatment,2026-01-10 13:33:00,Emergency,Dr. Mehta,High,25-34,Male
+C0047,P0047,Discharge,2026-01-10 14:01:00,Emergency,Dr. Mehta,High,25-34,Male
+C0048,P0048,Registration,2026-01-10 11:00:00,Emergency,Dr. Mehta,High,25-34,Female
+C0048,P0048,Triage,2026-01-10 11:05:00,Emergency,Dr. Mehta,High,25-34,Female
+C0048,P0048,Doctor Consultation,2026-01-10 11:14:00,Emergency,Dr. Mehta,High,25-34,Female
+C0048,P0048,Investigation,2026-01-10 11:30:00,Laboratory,Dr. Mehta,High,25-34,Female
+C0048,P0048,Treatment,2026-01-10 11:40:00,Emergency,Dr. Mehta,High,25-34,Female
+C0048,P0048,Discharge,2026-01-10 12:08:00,Emergency,Dr. Mehta,High,25-34,Female
+C0049,P0049,Registration,2026-01-10 09:32:00,Emergency,Dr. Mehta,High,35-44,Female
+C0049,P0049,Triage,2026-01-10 09:36:00,Emergency,Dr. Mehta,High,35-44,Female
+C0049,P0049,Doctor Consultation,2026-01-10 09:44:00,Emergency,Dr. Mehta,High,35-44,Female
+C0049,P0049,Investigation,2026-01-10 10:01:00,Laboratory,Dr. Mehta,High,35-44,Female
+C0049,P0049,Treatment,2026-01-10 10:17:00,Emergency,Dr. Mehta,High,35-44,Female
+C0049,P0049,Discharge,2026-01-10 10:46:00,Emergency,Dr. Mehta,High,35-44,Female
+C0050,P0050,Registration,2026-01-10 14:56:00,Emergency,Dr. Gupta,Critical,0-17,Other
+C0050,P0050,Triage,2026-01-10 15:01:00,Emergency,Dr. Gupta,Critical,0-17,Other
+C0050,P0050,Doctor Consultation,2026-01-10 15:08:00,Emergency,Dr. Gupta,Critical,0-17,Other
+C0050,P0050,Investigation,2026-01-10 15:19:00,Laboratory,Dr. Gupta,Critical,0-17,Other
+C0050,P0050,Treatment,2026-01-10 15:31:00,Emergency,Dr. Gupta,Critical,0-17,Other
+C0050,P0050,Discharge,2026-01-10 15:47:00,Emergency,Dr. Gupta,Critical,0-17,Other
+C0051,P0051,Registration,2026-01-10 15:49:00,Emergency,Dr. Verma,Critical,45-54,Male
+C0051,P0051,Triage,2026-01-10 15:55:00,Emergency,Dr. Verma,Critical,45-54,Male
+C0051,P0051,Doctor Consultation,2026-01-10 15:57:00,Emergency,Dr. Verma,Critical,45-54,Male
+C0051,P0051,Investigation,2026-01-10 16:08:00,Laboratory,Dr. Verma,Critical,45-54,Male
+C0051,P0051,Treatment,2026-01-10 16:18:00,Emergency,Dr. Verma,Critical,45-54,Male
+C0051,P0051,Discharge,2026-01-10 16:36:00,Emergency,Dr. Verma,Critical,45-54,Male
+C0052,P0052,Registration,2026-01-10 15:48:00,Emergency,Dr. Gupta,Medium,35-44,Other
+C0052,P0052,Triage,2026-01-10 16:02:00,Emergency,Dr. Gupta,Medium,35-44,Other
+C0052,P0052,Doctor Consultation,2026-01-10 16:07:00,Emergency,Dr. Gupta,Medium,35-44,Other
+C0052,P0052,X-Ray,2026-01-10 16:29:00,Radiology,Dr. Gupta,Medium,35-44,Other
+C0052,P0052,Triage,2026-01-10 17:02:00,Emergency,Dr. Gupta,Medium,35-44,Other
+C0052,P0052,Doctor Consultation,2026-01-10 17:07:00,Emergency,Dr. Gupta,Medium,35-44,Other
+C0052,P0052,Treatment,2026-01-10 17:19:00,Emergency,Dr. Gupta,Medium,35-44,Other
+C0052,P0052,Discharge,2026-01-10 17:54:00,Emergency,Dr. Gupta,Medium,35-44,Other
+C0053,P0053,Registration,2026-01-10 10:09:00,Emergency,Dr. Sharma,Medium,65+,Female
+C0053,P0053,Triage,2026-01-10 10:19:00,Emergency,Dr. Sharma,Medium,65+,Female
+C0053,P0053,Doctor Consultation,2026-01-10 10:30:00,Emergency,Dr. Sharma,Medium,65+,Female
+C0053,P0053,Investigation,2026-01-10 10:54:00,Laboratory,Dr. Sharma,Medium,65+,Female
+C0053,P0053,Treatment,2026-01-10 11:14:00,Emergency,Dr. Sharma,Medium,65+,Female
+C0053,P0053,Discharge,2026-01-10 11:39:00,Emergency,Dr. Sharma,Medium,65+,Female
+C0054,P0054,Registration,2026-01-10 11:22:00,Emergency,Dr. Sharma,High,65+,Female
+C0054,P0054,Triage,2026-01-10 11:32:00,Emergency,Dr. Sharma,High,65+,Female
+C0054,P0054,Doctor Consultation,2026-01-10 11:36:00,Emergency,Dr. Sharma,High,65+,Female
+C0054,P0054,Investigation,2026-01-10 11:52:00,Laboratory,Dr. Sharma,High,65+,Female
+C0054,P0054,Treatment,2026-01-10 12:05:00,Emergency,Dr. Sharma,High,65+,Female
+C0054,P0054,Discharge,2026-01-10 12:31:00,Emergency,Dr. Sharma,High,65+,Female
+C0055,P0055,Registration,2026-01-10 15:39:00,Emergency,Dr. Verma,Low,55-64,Male
+C0055,P0055,Triage,2026-01-10 15:45:00,Emergency,Dr. Verma,Low,55-64,Male
+C0055,P0055,Doctor Consultation,2026-01-10 15:57:00,Emergency,Dr. Verma,Low,55-64,Male
+C0055,P0055,Investigation,2026-01-10 16:19:00,Laboratory,Dr. Verma,Low,55-64,Male
+C0055,P0055,Treatment,2026-01-10 16:37:00,Emergency,Dr. Verma,Low,55-64,Male
+C0055,P0055,Discharge,2026-01-10 17:16:00,Emergency,Dr. Verma,Low,55-64,Male
+C0056,P0056,Registration,2026-01-10 09:58:00,Emergency,Dr. Singh,Critical,45-54,Male
+C0056,P0056,Triage,2026-01-10 10:02:00,Emergency,Dr. Singh,Critical,45-54,Male
+C0056,P0056,Doctor Consultation,2026-01-10 10:06:00,Emergency,Dr. Singh,Critical,45-54,Male
+C0056,P0056,X-Ray,2026-01-10 10:14:00,Radiology,Dr. Singh,Critical,45-54,Male
+C0056,P0056,Treatment,2026-01-10 10:26:00,Emergency,Dr. Singh,Critical,45-54,Male
+C0056,P0056,Discharge,2026-01-10 10:35:00,Emergency,Dr. Singh,Critical,45-54,Male
+C0057,P0057,Registration,2026-01-10 09:13:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0057,P0057,Triage,2026-01-10 09:17:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0057,P0057,Doctor Consultation,2026-01-10 09:21:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0057,P0057,X-Ray,2026-01-10 09:35:00,Radiology,Dr. Gupta,Critical,25-34,Other
+C0057,P0057,Triage,2026-01-10 09:53:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0057,P0057,Doctor Consultation,2026-01-10 09:59:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0057,P0057,Treatment,2026-01-10 10:05:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0057,P0057,Discharge,2026-01-10 10:23:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0058,P0058,Registration,2026-01-10 16:15:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0058,P0058,Triage,2026-01-10 16:28:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0058,P0058,Doctor Consultation,2026-01-10 16:51:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0058,P0058,X-Ray,2026-01-10 17:18:00,Radiology,Dr. Mehta,Low,55-64,Other
+C0058,P0058,Treatment,2026-01-10 17:40:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0058,P0058,Discharge,2026-01-10 18:20:00,Emergency,Dr. Mehta,Low,55-64,Other
+C0059,P0059,Registration,2026-01-10 11:54:00,Emergency,Dr. Sharma,Critical,0-17,Female
+C0059,P0059,Triage,2026-01-10 11:59:00,Emergency,Dr. Sharma,Critical,0-17,Female
+C0059,P0059,Doctor Consultation,2026-01-10 12:09:00,Emergency,Dr. Sharma,Critical,0-17,Female
+C0059,P0059,Investigation,2026-01-10 12:16:00,Laboratory,Dr. Sharma,Critical,0-17,Female
+C0059,P0059,Treatment,2026-01-10 12:28:00,Emergency,Dr. Sharma,Critical,0-17,Female
+C0059,P0059,Discharge,2026-01-10 12:38:00,Emergency,Dr. Sharma,Critical,0-17,Female
+C0060,P0060,Registration,2026-01-10 14:33:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0060,P0060,Triage,2026-01-10 14:40:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0060,P0060,Doctor Consultation,2026-01-10 14:46:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0060,P0060,Investigation,2026-01-10 14:56:00,Laboratory,Dr. Gupta,Critical,25-34,Other
+C0060,P0060,Treatment,2026-01-10 15:04:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0060,P0060,Discharge,2026-01-10 15:12:00,Emergency,Dr. Gupta,Critical,25-34,Other
+C0061,P0061,Registration,2026-01-10 16:31:00,Emergency,Dr. Mehta,Critical,35-44,Male
+C0061,P0061,Triage,2026-01-10 16:37:00,Emergency,Dr. Mehta,Critical,35-44,Male
+C0061,P0061,Doctor Consultation,2026-01-10 16:45:00,Emergency,Dr. Mehta,Critical,35-44,Male
+C0061,P0061,X-Ray,2026-01-10 16:50:00,Radiology,Dr. Mehta,Critical,35-44,Male
+C0061,P0061,Treatment,2026-01-10 17:05:00,Emergency,Dr. Mehta,Critical,35-44,Male
+C0061,P0061,Discharge,2026-01-10 17:17:00,Emergency,Dr. Mehta,Critical,35-44,Male
+C0062,P0062,Registration,2026-01-10 13:09:00,Emergency,Dr. Singh,High,18-24,Female
+C0062,P0062,Triage,2026-01-10 13:19:00,Emergency,Dr. Singh,High,18-24,Female
+C0062,P0062,Doctor Consultation,2026-01-10 13:29:00,Emergency,Dr. Singh,High,18-24,Female
+C0062,P0062,Investigation,2026-01-10 13:49:00,Laboratory,Dr. Singh,High,18-24,Female
+C0062,P0062,Treatment,2026-01-10 13:57:00,Emergency,Dr. Singh,High,18-24,Female
+C0062,P0062,Discharge,2026-01-10 14:20:00,Emergency,Dr. Singh,High,18-24,Female
+C0063,P0063,Registration,2026-01-10 09:43:00,Emergency,Dr. Gupta,Critical,18-24,Other
+C0063,P0063,Triage,2026-01-10 09:47:00,Emergency,Dr. Gupta,Critical,18-24,Other
+C0063,P0063,Doctor Consultation,2026-01-10 09:57:00,Emergency,Dr. Gupta,Critical,18-24,Other
+C0063,P0063,X-Ray,2026-01-10 10:12:00,Radiology,Dr. Gupta,Critical,18-24,Other
+C0063,P0063,Treatment,2026-01-10 10:27:00,Emergency,Dr. Gupta,Critical,18-24,Other
+C0063,P0063,Discharge,2026-01-10 10:41:00,Emergency,Dr. Gupta,Critical,18-24,Other
+C0064,P0064,Registration,2026-01-10 09:47:00,Emergency,Dr. Verma,Critical,25-34,Male
+C0064,P0064,Triage,2026-01-10 09:54:00,Emergency,Dr. Verma,Critical,25-34,Male
+C0064,P0064,Doctor Consultation,2026-01-10 10:02:00,Emergency,Dr. Verma,Critical,25-34,Male
+C0064,P0064,Investigation,2026-01-10 10:14:00,Laboratory,Dr. Verma,Critical,25-34,Male
+C0064,P0064,Treatment,2026-01-10 10:24:00,Emergency,Dr. Verma,Critical,25-34,Male
+C0064,P0064,Discharge,2026-01-10 10:38:00,Emergency,Dr. Verma,Critical,25-34,Male
+C0065,P0065,Registration,2026-01-10 11:49:00,Emergency,Dr. Singh,Critical,25-34,Other
+C0065,P0065,Triage,2026-01-10 11:53:00,Emergency,Dr. Singh,Critical,25-34,Other
+C0065,P0065,Doctor Consultation,2026-01-10 11:57:00,Emergency,Dr. Singh,Critical,25-34,Other
+C0065,P0065,Investigation,2026-01-10 12:05:00,Laboratory,Dr. Singh,Critical,25-34,Other
+C0065,P0065,Treatment,2026-01-10 12:15:00,Emergency,Dr. Singh,Critical,25-34,Other
+C0065,P0065,Discharge,2026-01-10 12:24:00,Emergency,Dr. Singh,Critical,25-34,Other
+C0066,P0066,Registration,2026-01-10 15:30:00,Emergency,Dr. Verma,Medium,55-64,Male
+C0066,P0066,Triage,2026-01-10 15:39:00,Emergency,Dr. Verma,Medium,55-64,Male
+C0066,P0066,Doctor Consultation,2026-01-10 15:53:00,Emergency,Dr. Verma,Medium,55-64,Male
+C0066,P0066,X-Ray,2026-01-10 16:06:00,Radiology,Dr. Verma,Medium,55-64,Male
+C0066,P0066,Treatment,2026-01-10 16:27:00,Emergency,Dr. Verma,Medium,55-64,Male
+C0066,P0066,Discharge,2026-01-10 16:51:00,Emergency,Dr. Verma,Medium,55-64,Male
+C0067,P0067,Registration,2026-01-10 12:04:00,Emergency,Dr. Mehta,Low,18-24,Female
+C0067,P0067,Triage,2026-01-10 12:10:00,Emergency,Dr. Mehta,Low,18-24,Female
+C0067,P0067,Doctor Consultation,2026-01-10 12:18:00,Emergency,Dr. Mehta,Low,18-24,Female
+C0067,P0067,Investigation,2026-01-10 12:53:00,Laboratory,Dr. Mehta,Low,18-24,Female
+C0067,P0067,Treatment,2026-01-10 13:18:00,Emergency,Dr. Mehta,Low,18-24,Female
+C0067,P0067,Discharge,2026-01-10 14:06:00,Emergency,Dr. Mehta,Low,18-24,Female
+C0068,P0068,Registration,2026-01-10 14:26:00,Emergency,Dr. Sharma,Low,65+,Female
+C0068,P0068,Triage,2026-01-10 14:42:00,Emergency,Dr. Sharma,Low,65+,Female
+C0068,P0068,Doctor Consultation,2026-01-10 15:08:00,Emergency,Dr. Sharma,Low,65+,Female
+C0068,P0068,X-Ray,2026-01-10 15:39:00,Radiology,Dr. Sharma,Low,65+,Female
+C0068,P0068,Treatment,2026-01-10 16:11:00,Emergency,Dr. Sharma,Low,65+,Female
+C0068,P0068,Discharge,2026-01-10 16:37:00,Emergency,Dr. Sharma,Low,65+,Female
+C0069,P0069,Registration,2026-01-10 11:09:00,Emergency,Dr. Sharma,Low,65+,Female
+C0069,P0069,Triage,2026-01-10 11:17:00,Emergency,Dr. Sharma,Low,65+,Female
+C0069,P0069,Doctor Consultation,2026-01-10 11:25:00,Emergency,Dr. Sharma,Low,65+,Female
+C0069,P0069,Investigation,2026-01-10 11:43:00,Laboratory,Dr. Sharma,Low,65+,Female
+C0069,P0069,Treatment,2026-01-10 12:01:00,Emergency,Dr. Sharma,Low,65+,Female
+C0069,P0069,Discharge,2026-01-10 12:53:00,Emergency,Dr. Sharma,Low,65+,Female
+C0070,P0070,Registration,2026-01-10 11:35:00,Emergency,Dr. Mehta,Low,0-17,Male
+C0070,P0070,Triage,2026-01-10 11:53:00,Emergency,Dr. Mehta,Low,0-17,Male
+C0070,P0070,Doctor Consultation,2026-01-10 12:09:00,Emergency,Dr. Mehta,Low,0-17,Male
+C0070,P0070,X-Ray,2026-01-10 12:43:00,Radiology,Dr. Mehta,Low,0-17,Male
+C0070,P0070,Treatment,2026-01-10 13:18:00,Emergency,Dr. Mehta,Low,0-17,Male
+C0070,P0070,Discharge,2026-01-10 13:56:00,Emergency,Dr. Mehta,Low,0-17,Male
+C0071,P0071,Registration,2026-01-10 11:32:00,Emergency,Dr. Singh,Critical,65+,Other
+C0071,P0071,Triage,2026-01-10 11:34:00,Emergency,Dr. Singh,Critical,65+,Other
+C0071,P0071,Doctor Consultation,2026-01-10 11:38:00,Emergency,Dr. Singh,Critical,65+,Other
+C0071,P0071,X-Ray,2026-01-10 11:46:00,Radiology,Dr. Singh,Critical,65+,Other
+C0071,P0071,Treatment,2026-01-10 12:04:00,Emergency,Dr. Singh,Critical,65+,Other
+C0071,P0071,Discharge,2026-01-10 12:14:00,Emergency,Dr. Singh,Critical,65+,Other
+C0072,P0072,Registration,2026-01-10 14:38:00,Emergency,Dr. Verma,Medium,0-17,Male
+C0072,P0072,Triage,2026-01-10 14:45:00,Emergency,Dr. Verma,Medium,0-17,Male
+C0072,P0072,Doctor Consultation,2026-01-10 14:50:00,Emergency,Dr. Verma,Medium,0-17,Male
+C0072,P0072,X-Ray,2026-01-10 15:13:00,Radiology,Dr. Verma,Medium,0-17,Male
+C0072,P0072,Treatment,2026-01-10 15:42:00,Emergency,Dr. Verma,Medium,0-17,Male
+C0072,P0072,Discharge,2026-01-10 16:19:00,Emergency,Dr. Verma,Medium,0-17,Male
+C0073,P0073,Registration,2026-01-10 13:00:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0073,P0073,Triage,2026-01-10 13:12:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0073,P0073,Doctor Consultation,2026-01-10 13:19:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0073,P0073,X-Ray,2026-01-10 13:36:00,Radiology,Dr. Singh,Medium,25-34,Male
+C0073,P0073,Treatment,2026-01-10 13:59:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0073,P0073,Discharge,2026-01-10 14:39:00,Emergency,Dr. Singh,Medium,25-34,Male
+C0074,P0074,Registration,2026-01-10 14:01:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0074,P0074,Triage,2026-01-10 14:09:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0074,P0074,Doctor Consultation,2026-01-10 14:13:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0074,P0074,X-Ray,2026-01-10 14:22:00,Radiology,Dr. Sharma,Critical,55-64,Male
+C0074,P0074,Treatment,2026-01-10 14:32:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0074,P0074,Discharge,2026-01-10 14:40:00,Emergency,Dr. Sharma,Critical,55-64,Male
+C0075,P0075,Registration,2026-01-10 10:24:00,Emergency,Dr. Gupta,High,65+,Female
+C0075,P0075,Triage,2026-01-10 10:31:00,Emergency,Dr. Gupta,High,65+,Female
+C0075,P0075,Doctor Consultation,2026-01-10 10:44:00,Emergency,Dr. Gupta,High,65+,Female
+C0075,P0075,Investigation,2026-01-10 10:58:00,Laboratory,Dr. Gupta,High,65+,Female
+C0075,P0075,Treatment,2026-01-10 11:17:00,Emergency,Dr. Gupta,High,65+,Female
+C0075,P0075,Discharge,2026-01-10 11:39:00,Emergency,Dr. Gupta,High,65+,Female
+C0076,P0076,Registration,2026-01-10 14:06:00,Emergency,Dr. Mehta,High,0-17,Female
+C0076,P0076,Triage,2026-01-10 14:10:00,Emergency,Dr. Mehta,High,0-17,Female
+C0076,P0076,Doctor Consultation,2026-01-10 14:19:00,Emergency,Dr. Mehta,High,0-17,Female
+C0076,P0076,Investigation,2026-01-10 14:40:00,Laboratory,Dr. Mehta,High,0-17,Female
+C0076,P0076,Treatment,2026-01-10 14:48:00,Emergency,Dr. Mehta,High,0-17,Female
+C0076,P0076,Discharge,2026-01-10 15:17:00,Emergency,Dr. Mehta,High,0-17,Female
+C0077,P0077,Registration,2026-01-10 16:00:00,Emergency,Dr. Verma,Low,25-34,Other
+C0077,P0077,Triage,2026-01-10 16:20:00,Emergency,Dr. Verma,Low,25-34,Other
+C0077,P0077,Doctor Consultation,2026-01-10 16:45:00,Emergency,Dr. Verma,Low,25-34,Other
+C0077,P0077,Investigation,2026-01-10 17:08:00,Laboratory,Dr. Verma,Low,25-34,Other
+C0077,P0077,Treatment,2026-01-10 17:28:00,Emergency,Dr. Verma,Low,25-34,Other
+C0077,P0077,Discharge,2026-01-10 18:11:00,Emergency,Dr. Verma,Low,25-34,Other
+C0078,P0078,Registration,2026-01-10 14:25:00,Emergency,Dr. Gupta,Low,65+,Female
+C0078,P0078,Triage,2026-01-10 14:38:00,Emergency,Dr. Gupta,Low,65+,Female
+C0078,P0078,Doctor Consultation,2026-01-10 14:58:00,Emergency,Dr. Gupta,Low,65+,Female
+C0078,P0078,Investigation,2026-01-10 15:15:00,Laboratory,Dr. Gupta,Low,65+,Female
+C0078,P0078,Treatment,2026-01-10 15:35:00,Emergency,Dr. Gupta,Low,65+,Female
+C0078,P0078,Discharge,2026-01-10 16:07:00,Emergency,Dr. Gupta,Low,65+,Female
+C0079,P0079,Registration,2026-01-10 14:55:00,Emergency,Dr. Mehta,Critical,35-44,Female
+C0079,P0079,Triage,2026-01-10 14:58:00,Emergency,Dr. Mehta,Critical,35-44,Female
+C0079,P0079,Doctor Consultation,2026-01-10 15:06:00,Emergency,Dr. Mehta,Critical,35-44,Female
+C0079,P0079,Investigation,2026-01-10 15:15:00,Laboratory,Dr. Mehta,Critical,35-44,Female
+C0079,P0079,Treatment,2026-01-10 15:25:00,Emergency,Dr. Mehta,Critical,35-44,Female
+C0079,P0079,Discharge,2026-01-10 15:34:00,Emergency,Dr. Mehta,Critical,35-44,Female
+C0080,P0080,Registration,2026-01-10 16:22:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0080,P0080,Triage,2026-01-10 16:28:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0080,P0080,Doctor Consultation,2026-01-10 16:36:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0080,P0080,Investigation,2026-01-10 16:50:00,Laboratory,Dr. Gupta,Critical,45-54,Male
+C0080,P0080,Treatment,2026-01-10 17:02:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0080,P0080,Discharge,2026-01-10 17:20:00,Emergency,Dr. Gupta,Critical,45-54,Male
+C0081,P0081,Registration,2026-01-10 15:29:00,Emergency,Dr. Mehta,High,0-17,Male
+C0081,P0081,Triage,2026-01-10 15:36:00,Emergency,Dr. Mehta,High,0-17,Male
+C0081,P0081,Doctor Consultation,2026-01-10 15:50:00,Emergency,Dr. Mehta,High,0-17,Male
+C0081,P0081,Investigation,2026-01-10 16:09:00,Laboratory,Dr. Mehta,High,0-17,Male
+C0081,P0081,Treatment,2026-01-10 16:19:00,Emergency,Dr. Mehta,High,0-17,Male
+C0081,P0081,Discharge,2026-01-10 16:30:00,Emergency,Dr. Mehta,High,0-17,Male
+C0082,P0082,Registration,2026-01-10 14:11:00,Emergency,Dr. Singh,Medium,65+,Male
+C0082,P0082,Triage,2026-01-10 14:24:00,Emergency,Dr. Singh,Medium,65+,Male
+C0082,P0082,Doctor Consultation,2026-01-10 14:42:00,Emergency,Dr. Singh,Medium,65+,Male
+C0082,P0082,X-Ray,2026-01-10 14:54:00,Radiology,Dr. Singh,Medium,65+,Male
+C0082,P0082,Treatment,2026-01-10 15:16:00,Emergency,Dr. Singh,Medium,65+,Male
+C0082,P0082,Discharge,2026-01-10 15:34:00,Emergency,Dr. Singh,Medium,65+,Male
+C0083,P0083,Registration,2026-01-10 10:00:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0083,P0083,Triage,2026-01-10 10:04:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0083,P0083,Doctor Consultation,2026-01-10 10:13:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0083,P0083,X-Ray,2026-01-10 10:25:00,Radiology,Dr. Singh,Critical,55-64,Male
+C0083,P0083,Treatment,2026-01-10 10:40:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0083,P0083,Discharge,2026-01-10 10:51:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0084,P0084,Registration,2026-01-10 13:42:00,Emergency,Dr. Mehta,Medium,18-24,Female
+C0084,P0084,Triage,2026-01-10 13:49:00,Emergency,Dr. Mehta,Medium,18-24,Female
+C0084,P0084,Doctor Consultation,2026-01-10 13:56:00,Emergency,Dr. Mehta,Medium,18-24,Female
+C0084,P0084,X-Ray,2026-01-10 14:14:00,Radiology,Dr. Mehta,Medium,18-24,Female
+C0084,P0084,Treatment,2026-01-10 14:42:00,Emergency,Dr. Mehta,Medium,18-24,Female
+C0084,P0084,Discharge,2026-01-10 15:07:00,Emergency,Dr. Mehta,Medium,18-24,Female
+C0085,P0085,Registration,2026-01-10 11:16:00,Emergency,Dr. Singh,High,65+,Male
+C0085,P0085,Triage,2026-01-10 11:26:00,Emergency,Dr. Singh,High,65+,Male
+C0085,P0085,Doctor Consultation,2026-01-10 11:41:00,Emergency,Dr. Singh,High,65+,Male
+C0085,P0085,X-Ray,2026-01-10 11:51:00,Radiology,Dr. Singh,High,65+,Male
+C0085,P0085,Triage,2026-01-10 12:13:00,Emergency,Dr. Singh,High,65+,Male
+C0085,P0085,Doctor Consultation,2026-01-10 12:28:00,Emergency,Dr. Singh,High,65+,Male
+C0085,P0085,Treatment,2026-01-10 12:44:00,Emergency,Dr. Singh,High,65+,Male
+C0085,P0085,Discharge,2026-01-10 13:03:00,Emergency,Dr. Singh,High,65+,Male
+C0086,P0086,Registration,2026-01-10 15:30:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0086,P0086,Triage,2026-01-10 15:34:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0086,P0086,Doctor Consultation,2026-01-10 15:42:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0086,P0086,X-Ray,2026-01-10 15:50:00,Radiology,Dr. Singh,Critical,45-54,Female
+C0086,P0086,Triage,2026-01-10 16:04:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0086,P0086,Doctor Consultation,2026-01-10 16:07:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0086,P0086,Treatment,2026-01-10 16:17:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0086,P0086,Discharge,2026-01-10 16:36:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0087,P0087,Registration,2026-01-10 15:01:00,Emergency,Dr. Verma,Critical,65+,Female
+C0087,P0087,Triage,2026-01-10 15:03:00,Emergency,Dr. Verma,Critical,65+,Female
+C0087,P0087,Doctor Consultation,2026-01-10 15:07:00,Emergency,Dr. Verma,Critical,65+,Female
+C0087,P0087,Investigation,2026-01-10 15:20:00,Laboratory,Dr. Verma,Critical,65+,Female
+C0087,P0087,Treatment,2026-01-10 15:30:00,Emergency,Dr. Verma,Critical,65+,Female
+C0087,P0087,Discharge,2026-01-10 15:39:00,Emergency,Dr. Verma,Critical,65+,Female
+C0088,P0088,Registration,2026-01-10 09:51:00,Emergency,Dr. Verma,Low,45-54,Female
+C0088,P0088,Triage,2026-01-10 10:11:00,Emergency,Dr. Verma,Low,45-54,Female
+C0088,P0088,Doctor Consultation,2026-01-10 10:23:00,Emergency,Dr. Verma,Low,45-54,Female
+C0088,P0088,Investigation,2026-01-10 10:39:00,Laboratory,Dr. Verma,Low,45-54,Female
+C0088,P0088,Treatment,2026-01-10 11:11:00,Emergency,Dr. Verma,Low,45-54,Female
+C0088,P0088,Discharge,2026-01-10 12:03:00,Emergency,Dr. Verma,Low,45-54,Female
+C0089,P0089,Registration,2026-01-10 11:53:00,Emergency,Dr. Sharma,Critical,45-54,Other
+C0089,P0089,Triage,2026-01-10 12:01:00,Emergency,Dr. Sharma,Critical,45-54,Other
+C0089,P0089,Doctor Consultation,2026-01-10 12:09:00,Emergency,Dr. Sharma,Critical,45-54,Other
+C0089,P0089,X-Ray,2026-01-10 12:19:00,Radiology,Dr. Sharma,Critical,45-54,Other
+C0089,P0089,Triage,2026-01-10 12:37:00,Emergency,Dr. Sharma,Critical,45-54,Other
+C0089,P0089,Doctor Consultation,2026-01-10 12:47:00,Emergency,Dr. Sharma,Critical,45-54,Other
+C0089,P0089,Treatment,2026-01-10 13:01:00,Emergency,Dr. Sharma,Critical,45-54,Other
+C0089,P0089,Discharge,2026-01-10 13:09:00,Emergency,Dr. Sharma,Critical,45-54,Other
+C0090,P0090,Registration,2026-01-10 09:35:00,Emergency,Dr. Verma,High,18-24,Other
+C0090,P0090,Triage,2026-01-10 09:43:00,Emergency,Dr. Verma,High,18-24,Other
+C0090,P0090,Doctor Consultation,2026-01-10 09:49:00,Emergency,Dr. Verma,High,18-24,Other
+C0090,P0090,X-Ray,2026-01-10 10:11:00,Radiology,Dr. Verma,High,18-24,Other
+C0090,P0090,Treatment,2026-01-10 10:25:00,Emergency,Dr. Verma,High,18-24,Other
+C0090,P0090,Discharge,2026-01-10 10:47:00,Emergency,Dr. Verma,High,18-24,Other
+C0091,P0091,Registration,2026-01-10 14:55:00,Emergency,Dr. Singh,Low,25-34,Male
+C0091,P0091,Triage,2026-01-10 15:07:00,Emergency,Dr. Singh,Low,25-34,Male
+C0091,P0091,Doctor Consultation,2026-01-10 15:28:00,Emergency,Dr. Singh,Low,25-34,Male
+C0091,P0091,X-Ray,2026-01-10 15:55:00,Radiology,Dr. Singh,Low,25-34,Male
+C0091,P0091,Treatment,2026-01-10 16:31:00,Emergency,Dr. Singh,Low,25-34,Male
+C0091,P0091,Discharge,2026-01-10 16:56:00,Emergency,Dr. Singh,Low,25-34,Male
+C0092,P0092,Registration,2026-01-10 13:31:00,Emergency,Dr. Verma,Medium,35-44,Other
+C0092,P0092,Triage,2026-01-10 13:45:00,Emergency,Dr. Verma,Medium,35-44,Other
+C0092,P0092,Doctor Consultation,2026-01-10 14:02:00,Emergency,Dr. Verma,Medium,35-44,Other
+C0092,P0092,Investigation,2026-01-10 14:31:00,Laboratory,Dr. Verma,Medium,35-44,Other
+C0092,P0092,Treatment,2026-01-10 14:48:00,Emergency,Dr. Verma,Medium,35-44,Other
+C0092,P0092,Discharge,2026-01-10 15:18:00,Emergency,Dr. Verma,Medium,35-44,Other
+C0093,P0093,Registration,2026-01-10 10:13:00,Emergency,Dr. Gupta,High,18-24,Female
+C0093,P0093,Triage,2026-01-10 10:17:00,Emergency,Dr. Gupta,High,18-24,Female
+C0093,P0093,Doctor Consultation,2026-01-10 10:31:00,Emergency,Dr. Gupta,High,18-24,Female
+C0093,P0093,Investigation,2026-01-10 10:45:00,Laboratory,Dr. Gupta,High,18-24,Female
+C0093,P0093,Treatment,2026-01-10 10:56:00,Emergency,Dr. Gupta,High,18-24,Female
+C0093,P0093,Discharge,2026-01-10 11:09:00,Emergency,Dr. Gupta,High,18-24,Female
+C0094,P0094,Registration,2026-01-10 11:56:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0094,P0094,Triage,2026-01-10 12:00:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0094,P0094,Doctor Consultation,2026-01-10 12:06:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0094,P0094,Investigation,2026-01-10 12:17:00,Laboratory,Dr. Singh,Critical,45-54,Female
+C0094,P0094,Treatment,2026-01-10 12:29:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0094,P0094,Discharge,2026-01-10 12:38:00,Emergency,Dr. Singh,Critical,45-54,Female
+C0095,P0095,Registration,2026-01-10 12:15:00,Emergency,Dr. Singh,High,45-54,Female
+C0095,P0095,Triage,2026-01-10 12:26:00,Emergency,Dr. Singh,High,45-54,Female
+C0095,P0095,Doctor Consultation,2026-01-10 12:39:00,Emergency,Dr. Singh,High,45-54,Female
+C0095,P0095,Investigation,2026-01-10 12:53:00,Laboratory,Dr. Singh,High,45-54,Female
+C0095,P0095,Treatment,2026-01-10 13:01:00,Emergency,Dr. Singh,High,45-54,Female
+C0095,P0095,Discharge,2026-01-10 13:26:00,Emergency,Dr. Singh,High,45-54,Female
+C0096,P0096,Registration,2026-01-10 15:38:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0096,P0096,Triage,2026-01-10 15:42:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0096,P0096,Doctor Consultation,2026-01-10 15:50:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0096,P0096,X-Ray,2026-01-10 15:58:00,Radiology,Dr. Singh,Critical,55-64,Male
+C0096,P0096,Treatment,2026-01-10 16:16:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0096,P0096,Discharge,2026-01-10 16:26:00,Emergency,Dr. Singh,Critical,55-64,Male
+C0097,P0097,Registration,2026-01-10 11:08:00,Emergency,Dr. Sharma,Medium,55-64,Other
+C0097,P0097,Triage,2026-01-10 11:23:00,Emergency,Dr. Sharma,Medium,55-64,Other
+C0097,P0097,Doctor Consultation,2026-01-10 11:29:00,Emergency,Dr. Sharma,Medium,55-64,Other
+C0097,P0097,X-Ray,2026-01-10 11:48:00,Radiology,Dr. Sharma,Medium,55-64,Other
+C0097,P0097,Triage,2026-01-10 12:17:00,Emergency,Dr. Sharma,Medium,55-64,Other
+C0097,P0097,Doctor Consultation,2026-01-10 12:23:00,Emergency,Dr. Sharma,Medium,55-64,Other
+C0097,P0097,Treatment,2026-01-10 12:51:00,Emergency,Dr. Sharma,Medium,55-64,Other
+C0097,P0097,Discharge,2026-01-10 13:17:00,Emergency,Dr. Sharma,Medium,55-64,Other
+C0098,P0098,Registration,2026-01-10 09:46:00,Emergency,Dr. Verma,Critical,25-34,Female
+C0098,P0098,Triage,2026-01-10 09:52:00,Emergency,Dr. Verma,Critical,25-34,Female
+C0098,P0098,Doctor Consultation,2026-01-10 10:00:00,Emergency,Dr. Verma,Critical,25-34,Female
+C0098,P0098,Investigation,2026-01-10 10:13:00,Laboratory,Dr. Verma,Critical,25-34,Female
+C0098,P0098,Treatment,2026-01-10 10:22:00,Emergency,Dr. Verma,Critical,25-34,Female
+C0098,P0098,Discharge,2026-01-10 10:32:00,Emergency,Dr. Verma,Critical,25-34,Female
+C0099,P0099,Registration,2026-01-10 16:47:00,Emergency,Dr. Singh,High,65+,Female
+C0099,P0099,Triage,2026-01-10 16:56:00,Emergency,Dr. Singh,High,65+,Female
+C0099,P0099,Doctor Consultation,2026-01-10 17:01:00,Emergency,Dr. Singh,High,65+,Female
+C0099,P0099,X-Ray,2026-01-10 17:11:00,Radiology,Dr. Singh,High,65+,Female
+C0099,P0099,Triage,2026-01-10 17:27:00,Emergency,Dr. Singh,High,65+,Female
+C0099,P0099,Doctor Consultation,2026-01-10 17:40:00,Emergency,Dr. Singh,High,65+,Female
+C0099,P0099,Treatment,2026-01-10 18:00:00,Emergency,Dr. Singh,High,65+,Female
+C0099,P0099,Discharge,2026-01-10 18:20:00,Emergency,Dr. Singh,High,65+,Female
+C0100,P0100,Registration,2026-01-10 15:44:00,Emergency,Dr. Mehta,High,35-44,Male
+C0100,P0100,Triage,2026-01-10 15:52:00,Emergency,Dr. Mehta,High,35-44,Male
+C0100,P0100,Doctor Consultation,2026-01-10 16:02:00,Emergency,Dr. Mehta,High,35-44,Male
+C0100,P0100,Investigation,2026-01-10 16:23:00,Laboratory,Dr. Mehta,High,35-44,Male
+C0100,P0100,Treatment,2026-01-10 16:39:00,Emergency,Dr. Mehta,High,35-44,Male
+C0100,P0100,Discharge,2026-01-10 17:05:00,Emergency,Dr. Mehta,High,35-44,Male

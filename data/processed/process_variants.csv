@@ -1,0 +1,4 @@
+Variant,Case_Count
+Registration -> Triage -> Doctor Consultation -> Investigation -> Treatment -> Discharge,54
+Registration -> Triage -> Doctor Consultation -> X-Ray -> Treatment -> Discharge,30
+Registration -> Triage -> Doctor Consultation -> X-Ray -> Triage -> Doctor Consultation -> Treatment -> Discharge,16
